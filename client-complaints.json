@@ -3335,5 +3335,67 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "Car sputtered and slowed on expressway,  turbo failed. Recalls issued 2016 and 2017, then reissued 2020 to 2023, same turbo, 2019 was exempted"
+  },
+  {
+    "id": "11709126",
+    "make": "Toyota",
+    "model": "Prius",
+    "year": 2019,
+    "components": [
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "01/06/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Body of car has rust perforation starting from the inside working out. This is on the roof, so water incursion will effect airbags and electrical system. FIrst noticed rust bubbles a few years ago, but did not think much of it. Now two body shops have said roof panel needs to be replaced. This is big stuff!"
+  },
+  {
+    "id": "11695974",
+    "make": "Toyota",
+    "model": "Prius",
+    "year": 2019,
+    "components": [
+      "SERVICE BRAKES"
+    ],
+    "date": "10/28/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "See Attachment"
+  },
+  {
+    "id": "11692652",
+    "make": "Toyota",
+    "model": "Prius",
+    "year": 2019,
+    "components": [
+      "SERVICE BRAKES",
+      "LANE DEPARTURE",
+      "FORWARD COLLISION AVOIDANCE"
+    ],
+    "date": "10/11/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Since October 2023, my 2019 Toyota Prius has developed severe and unpredictable driving behavior after a regular brake service, which may have triggered or coincided with a software or ECU update. The car, which had been driving smoothly since I bought it in 2021, suddenly began showing false braking, steering interference, and lane instability \u2014 as if the car were trying to \u201ccorrect\u201d problems that didn\u2019t exist. These interventions often happen on highways or during turns, creating serious safety risks for both driver and passengers.  I\u2019ve spent months and thousands of dollars replacing parts, performing alignments, and recalibrating sensors, including at Toyota dealerships. The problem persists because it is software-based, not mechanical. I discovered that in mid\u20132023, the NHTSA announced upcoming rules requiring Automatic Emergency Braking (AEB) with pedestrian detection by 2029. Around that same time, reports from multiple drivers (Toyota, Honda, Hyundai, Ford, Subaru) began to appear describing the exact same issues.  It seems manufacturers began silently updating vehicles to meet anticipated compliance standards. However, this introduced overly sensitive and malfunctioning driver-assist systems. The most alarming part is that the driver cannot fully disable these features \u2014 the \u201coff\u201d button only reduces their intervention. This means when the system malfunctions, the driver is forced to operate an unsafe vehicle.  As a professional rideshare driver, this problem destroyed my ability to work. Passengers reported me for unsafe driving because of the car\u2019s erratic behavior. I eventually lost my vehicle and income. I believe this is a systemic safety defect linked to premature or unregulated implementation of AEB software.  Drivers deserve the right to fully disable malfunctioning systems that endanger lives. This is not just a car issue \u2014 it\u2019s a public safety crisis that must be urgently investigated."
+  },
+  {
+    "id": "11678811",
+    "make": "Toyota",
+    "model": "Prius",
+    "year": 2019,
+    "components": [
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "08/06/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Coolant system failed because coolant was leaking into catalytic converter. Two mechanics in two different states (one a Toyota dealer) claimed this is defect with 2019 Prius and results in repair costing more than $2000.00 because of this design flaw. Warning light did not come on until coolant was gone."
   }
 ]
