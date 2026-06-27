@@ -62,36 +62,6 @@
     "summary": "While driving the vehicle on a street it shut off on it's own in the middle of the road. It was terrifying. Had it pulled to my house. Once I was able to get it towed it went to Stockton CA Toyota Dealership and had it inspected with results of it needs a new transmission. They had no clue was was wrong with it just that it needed a new transmission. I have not driven the vehicle since this happened because it will not drive. It's going on 4 months now. The car at first was pulling and shaking and would not go into 3rd gear. It was stuck in acceleration. It was making a loud noise and it just got worse. I haven't had the vehicle for a year. I have researched this and there are many many  having the same issue with this type of vehicle."
   },
   {
-    "id": "11743889",
-    "make": "Toyota",
-    "model": "Camry",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "06/13/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Disgusted & deeply disappointed in my first (& last) experience owning a Toyota is an understatement. I confidently purchased a brand new Camry in 2019, based on their reputation for reliability. But, as soon as the warranty expired, the problems began.  First, the electronic water pump failed, costing me $1200.   The thermostat failed while I was on vacation last year, costing $300ish.  Multiple battery issues.  Then, a few months pass, check engine light pops up. Says it needs an O2 sensor. Replace it, light goes off, only to come back a few days later. Take to dealership where they charge me $200 to diagnose. They inform me the car will not accept after market parts & I'll need to purchase one from them instead for around $600. Yes. $600 for an O2 sensor.  At only 129k miles, the transmission failed. The car stopped in the middle of an intersection & would not move forward, nearly causing me & my child to be hit. Mechanic informs me that it can be upwards of $7k to replace with a used transmission, $11k for new, & that's only WHEN they can get the part, which is on back order for MONTHS. This is because the supply can't keep up with the demand, as this model has widespread transmission issues. It was explicitly stated it is a \"manufacturer defect.\" Yet, no recall. My online research absolutely supports that this is a large & very common problem that should warrant some responsibility from Toyota.  It was on a rollback 4 times in 1 year.  So, I was put in a position where I was forced to buy another car, since obviously I can't go without one for months. My 6 year old car (at time of breakdown) is now basically junk. It sits in my driveway, worthless, just 7 months after payoff."
-  },
-  {
-    "id": "11743234",
-    "make": "Toyota",
-    "model": "Camry",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "06/10/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "We experienced rough shifting, engine revving and now it won't shift out of first gear. The car is not driveable. We've taken it to Town & Country Toyota in Charlotte, NC where they said it could not be repaired and it needed replacing for $12,000. The car has 121,000 miles and is not under warranty. Also took it to an independent transmission shop and they said to replace the transmission as well. We think Toyota should issue a recall or some kind of compensation for this major expense. I have lots of stories similar to this by owners with 2018-2022 Toyota Camrys. Thank you."
-  },
-  {
     "id": "11744710",
     "make": "Toyota",
     "model": "Corolla",
@@ -151,36 +121,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "DESCRIPTION OF SAFETY ISSUE:  The Concentric Slave Cylinder (CSC) on my 2019 Toyota Corolla Hatchback 6-speed manual failed during normal driving at around 60mph, creating an immediate and uncontrolled safety hazard. The clutch pedal depressed fully to the floor while I was shifting from 5th gear to 6th gear and the vehicle became unable to be shifted out of gear, leaving me unable to properly control vehicle speed or movement. The only way to release the transmission was to physically reach down and lift the clutch pedal up with my foot while attempting to drive.   CRITICAL SAFETY CONCERN - SHARED BRAKE AND CLUTCH FLUID RESERVOIR:  On this vehicle, the brake fluid reservoir and clutch hydraulic system share a single reservoir. When the CSC fails and leaks fluid, brake fluid is consumed directly from the same reservoir that supplies the braking system. A CSC failure does not only result in loss of clutch function \u2014 it results in loss of brake fluid, and with sufficient fluid loss, partial or complete brake failure. This is not a theoretical risk.   This vehicle can fail in a way that simultaneously removes the driver's ability to control vehicle speed via the transmission AND reduces or eliminates braking capability \u2014 both at the same time, without warning  I am requesting that NHTSA investigate this as a safety defect and consider whether a recall or service campaign is warranted given the risk of simultaneous clutch and brake failure on these vehicles."
-  },
-  {
-    "id": "11728777",
-    "make": "Toyota",
-    "model": "Corolla",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "04/02/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "6 speed manual transmission.  79K miles.  Vehicle was checked at a dealer due to a sluggish clutch.   Dealer found low brake fluid, but no problems with the clutch.  The next day the clutch failed completely and car had to be towed off the highway.     Slave cylinder for the clutch is a design flaw on these vehicles."
-  },
-  {
-    "id": "11727668",
-    "make": "Toyota",
-    "model": "Corolla",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "03/28/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Clutch release bearing/slave cylinder failed at 29,900 miles. Without warning or unusual symptoms, clutch pedal stuck to floor and was unable to shift gears without manually pulling clutch pedal up."
   },
   {
     "id": "11742987",
@@ -245,38 +185,6 @@
     "summary": "Was in a front driver side T-bone @ 35 miles and hour accident and no Airbags deployed"
   },
   {
-    "id": "11738596",
-    "make": "Toyota",
-    "model": "RAV4",
-    "year": 2019,
-    "components": [
-      "ENGINE"
-    ],
-    "date": "05/18/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The Coolant Bypass Valve on my vehicle failed, leading to a risk of sudden engine overheating and potential coolant leaks into the electrical harness. This is a documented defect (CSP 23TE03) that Toyota has failed to address for vehicles over 100,000 miles, creating a safety hazard for high-mileage owners. This is a major concern on a known issue and those that don't have funds to pay for this known failure. They need to do a recall for ALL!"
-  },
-  {
-    "id": "11738293",
-    "make": "Toyota",
-    "model": "RAV4",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN",
-      "UNKNOWN OR OTHER",
-      "ENGINE"
-    ],
-    "date": "05/16/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The 8-speed automatic on my 2019 RAV4 (2.5L 4 Cyl) has been shifting super rough at lower speeds, to the point to where downshifts can send the revs into redline territory, but the car really doesn't move. No warning lights, passed state inspection, recently serviced. purchaced this car in Janurary with 50k miles on it and noticed it within a few weeks of driving. I am now at 57k and the issue is signifigantly worse than it was before. Will be taking it to Toyota soon.   The safety issues arise when I do not know how the car is going to accelerate or respond to throttle input in traffic. I don't trust the car to handle any fast throttle input if I need to move out of the way quickly."
-  },
-  {
     "id": "11746060",
     "make": "Toyota",
     "model": "Highlander",
@@ -335,36 +243,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "My transmission failed in my 2020 Toyota Highlander after about 75,000 miles.  This is a know issue technical service bulletin # T-SB-0008-21.  The dealership acknowledged the known issue and instructed me to reach out to Toyota corporate for goodwill assistance which I did.  They are reviewing my case but told me that they will not replace the transmission even thought its a know issue.  It will be $10,000 dollars to repair."
-  },
-  {
-    "id": "11742625",
-    "make": "Toyota",
-    "model": "Highlander",
-    "year": 2020,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "06/08/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The transmission has been making a whining noise since about 75K miles. Had the transmission fluid changed at about 110K miles. Still makes whining noise and now has a rumble occasionally. We took it to the dealer and they said the transmission needs replaced. Over $8k in charges for the repair."
-  },
-  {
-    "id": "11742680",
-    "make": "Toyota",
-    "model": "Highlander",
-    "year": 2020,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "06/08/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The contact owns a 2020 Toyota Highlander.  The contact stated that while driving to the dealer for a service appointment, the vehicle made an abnormally high-pitched sound. The vehicle was diagnosed with a UA80 transmission failure. No further information was available. There was no warning light illuminated.  The manufacturer was notified of the failure. The failure mileage was approximately 71,233."
   },
   {
     "id": "11737733",
@@ -427,36 +305,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "the left side inner and outer tie rods pulled apart at threads at jam nut. The threads approx 2 to three inches of threads were 100% rotted. The jam nut showed no sign of being loose. It did not UNTHREAD. No noise or any indication ever of an issue. It happened at 5:15 am. It was dark. I was at best going 1 mph in reverse.  If this had happened at road speeds the outcome could have been fatal for someone. For sure a lot of damage. I did not take a picture my bad. I did ask for the parts back but am 99%sure the part I got was not mine.it had a weld on it likely to move vehicle. The inner tie rod Was cut and looking like new, not a part exposed to the elements for 65k miles. I visually compared to other side. I will dissect it when I go to my friends shop. I could be wrong but doubtful. Call if questions. I had an extended warranty so they covered under that or a warranty/campaign?   I was a NIASE AND NOW called ASE certified mechanic specializing in front end repair so\u2026I would not knowingly drive cars that have a safety issue that could kill me or anyone. Safety first."
-  },
-  {
-    "id": "11722840",
-    "make": "Toyota",
-    "model": "Tacoma",
-    "year": 2019,
-    "components": [
-      "STRUCTURE"
-    ],
-    "date": "03/08/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "My 2019 Toyota Tacoma (Super White) is experiencing paint chipping and delamination across multiple body panels. Toyota has acknowledged this defect in limited repair programs, but my vehicle is affected beyond the covered areas. Paint loss exposes underlying primer/metal and may lead to corrosion over time. This appears widespread among similar model-year Tacomas."
-  },
-  {
-    "id": "11716829",
-    "make": "Toyota",
-    "model": "Tacoma",
-    "year": 2019,
-    "components": [
-      "ENGINE"
-    ],
-    "date": "02/09/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The contact owns a 2019 Toyota Tacoma. The contact stated that while driving at an undisclosed speed, there was an abnormal clattering sound coming from the engine, with a misfire coming from the engine. The check engine warning light was illuminated. The vehicle was restarted; however, the failure reoccurred. The vehicle was taken to several mechanics, where it was diagnosed and determined that the fuel injector in cylinder #3 had failed and needed to be replaced. The vehicle was not repaired. The vehicle was then taken to the dealer, where it was diagnosed with engine failure. The contact was informed that the engine needed to be replaced. The vehicle was not repaired. The manufacturer was made aware of the failure. The approximate failure mileage was 89,000."
   },
   {
     "id": "11746099",
@@ -522,39 +370,6 @@
     "summary": "Head gasket blown on engine. Burned off coolant so no leaks detected and just showed high temperature to pull over and let engine cool. Could have cause engine fire and/or disabled vehicle while on road. Very expensive fix and dealers who were contacted said they\u2019ve had multiple vehicles repaired for same issue. Online is widely reported problem with this make and model and among the different trim types all same problems"
   },
   {
-    "id": "11745140",
-    "make": "Honda",
-    "model": "Accord",
-    "year": 2019,
-    "components": [
-      "UNKNOWN OR OTHER",
-      "FORWARD COLLISION AVOIDANCE",
-      "LANE DEPARTURE"
-    ],
-    "date": "06/18/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Complaint Regarding Ongoing Issues After Turbocharger Repair \u2013 2019 Honda Accord  I am submitting a complaint regarding ongoing issues with my 2019 Honda Accord after a turbocharger-related repair.  The initial diagnostic code associated with the vehicle was P2563 (Turbocharger Boost Control Position Sensor Circuit Range/Performance). After the turbocharger/wastegate repair, my vehicle began displaying multiple system warnings, including:  * Emissions System Problem * ACC (Adaptive Cruise Control) warning * Collision Mitigation System warning * Lane Departure/Lane Keeping Assist warning * Electric Power Steering warning * Stability/traction control warnings * TPMS (Tire Pressure Monitoring System) warning  After the repair, the vehicle began jerking and experiencing a loss of power. Multiple warning lights appeared. While the warning lights temporarily cleared after a couple of vehicle restarts, they later returned and continue to reoccur.  I subsequently took the vehicle to Honda, where I was informed that a sensor required recalibration. Despite having the sensor recalibrated, the issues have continued, and the warning lights continue to return.  I am requesting that Honda investigate whether the repair, wiring, sensors, modules, calibration, or the turbocharger system itself may have contributed to these ongoing problems.  I have also noticed that many Honda Accord owners are reporting similar turbocharger-related issues and multiple warning lights appearing. This appears to be a very common issue among affected vehicles, and I believe it warrants further investigation to determine if there is a larger underlying problem affecting these vehicles.  I am requesting that Honda review this matter, document these concerns, and provide a proper resolution.  Thank you for your attention to this matter."
-  },
-  {
-    "id": "11744497",
-    "make": "Honda",
-    "model": "Accord",
-    "year": 2019,
-    "components": [
-      "AIR BAGS",
-      "FORWARD COLLISION AVOIDANCE"
-    ],
-    "date": "06/16/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "SRS weight sensor failure-- triggers the dashboard warning light and disables my passenger airbag.  My SRS light is on continuously.  There is a current Honda recall for this issue for my make and model; however, do to my VIN not being listed, the Honda dealership wants to charge me a diagnostic fee plus the repair costs for the exact issue that the current recall is listed for.  My VIN needs to be added. I should not have to come out of pocket to pay for this when I'm having the exact issue listed in the recall. My SRS light being on continuously is a MAJOR Safety concern because it disables the airbags--so in the event of an accident, the airbags will not deploy. I contacted Honda Corporate and they created a case--Case number 16432964 for this issue--but they told me it would be possibly months to get anything done and I would still have to pay out of pocket first.   NHTSA RECALL NUMBER: 26V-332 CAMPAIGN DESCRIPTION: 2018-22 Accord, Accord Hyb Seat Weight Sensor Recall Exp RECALL DATE: 05/21/2026  I have a service appointment on XXX @830AM at the Honda of Owings Mill Address: [XXX] Phone: [XXX]  I am also experiencing the phantom braking issue (unintended activation of the Collision Mitigation Braking System) when there is no object in sight.  The fix seams to be updating the Collision Mitigation Braking System (CMBS), which often require software updates and sensor recalibration. The dealership wants to charge me for this as well.  INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
-  },
-  {
     "id": "11675912",
     "make": "Honda",
     "model": "Civic",
@@ -614,37 +429,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "When driving at highway speeds steering sticks. Steering wheel does not move without more effort than usual. Being unable to make small adjustments freely means I must constantly drive with two hands in order to drive straight forward. When I noticed this I searched Honda recalls and found the exact same issue is being recalled for later models. This is a safety related issue because it prevents me from centering the vehicle in the lane."
-  },
-  {
-    "id": "11672263",
-    "make": "Honda",
-    "model": "Civic",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "07/09/2025",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "While driving on interstate vehicle lost power had to weave through traffic to get to pull off lane. Honda dealership states Replace the flywheel, pressure plate, friction disc (Clutch), and release bearing. car has 40k miles."
-  },
-  {
-    "id": "11671967",
-    "make": "Honda",
-    "model": "Civic",
-    "year": 2019,
-    "components": [
-      "STEERING",
-      "LANE DEPARTURE"
-    ],
-    "date": "07/08/2025",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The vehicle steering wheel feels stuck in position while driving, it releases the initial sticking feeling when I force the turn and it continues to feel stuck in place every time the steering doesn\u2019t turn to either side and I try to turn again it requires extra force to release the stuck in place feeling.  I took to dealership and asked if there was a recall and they told me only on newer models but not on my car model. The initial steering stuck in place causes delay when I need to steer quickly in traffic, I believe t\u2019s a safety concern. My car only has 39137 miles on the odometer."
   },
   {
     "id": "11746231",
@@ -708,36 +492,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "Flashing through brightness settings by itself, low through dark and runs in loop whenever sunlight hits it directly. It looks like the auto dimming is getting crazy when sunlight hits directly.  Reported issue with Honda. They issued a service bulletin (19-066) to the dealers to update the radio software if cars are still on warranty. However no recall was issued and customers have to pay dealers to get it updated for a manufactures defect."
-  },
-  {
-    "id": "11745494",
-    "make": "Honda",
-    "model": "CR-V",
-    "year": 2019,
-    "components": [
-      "STEERING"
-    ],
-    "date": "06/21/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The highly documented sticky steering issue has caused multiple dangerous issues of steering overcorrection on 2 lane highways in rural Arkansas and Missouri where I live. Seems worse on returning to straight ahead from a slight left curve. It makes my very nervous to drive and the dealer ignored it for years saying it was probably a knocked loose sensor. Estimated cost of out of warranty repair for the some issue the latest models have a recall on is about $5000. I cannot afford this and makes me tend to drive this vehicle in a dangerous condition."
-  },
-  {
-    "id": "11745402",
-    "make": "Honda",
-    "model": "CR-V",
-    "year": 2019,
-    "components": [
-      "FORWARD COLLISION AVOIDANCE"
-    ],
-    "date": "06/20/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Sudden braking.  Car in front at a safe distance, car behind me and a car was in other lane (driving opposite direction) maybe 20-30 ft away. Car braked on its own with \u201cbrake\u201d flashed on dash.  Car fishtailed but I was able to gain control after a second or two.  Occurred5:20pm on 6-18-26.  Occurred one other time about 15-18 months earlier.  Another incident occurred on 6-30-26 around 2:30 pm on clear day on divided highway with no one close in front of me.  Flashed \u201cbrake\u201d warning but did not brake."
   },
   {
     "id": "11746015",
@@ -804,37 +558,6 @@
     "summary": "There are several lights that come on and say there is a problem.  Upon looking online for information on how to fix it there are numerous people with the same issue and there should be a recall."
   },
   {
-    "id": "11743809",
-    "make": "Honda",
-    "model": "Pilot",
-    "year": 2019,
-    "components": [
-      "ENGINE",
-      "FUEL/PROPULSION SYSTEM"
-    ],
-    "date": "06/12/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Vehicle: 2019 Honda Pilot VIN: [XXX]  My 2019 Honda Pilot is experiencing an \"Emissions System Problem\" accompanied by Diagnostic Trouble Code (DTC) P219A (Air-Fuel Ratio Imbalance). This defect causes engine hesitation, rough idling, and a severe risk of sudden loss of motive power or engine stalling while driving at highway speeds, presenting a significant safety hazard to myself and other motorists.  American Honda is fully aware of this manufacturing defect. They issued Service Bulletins 20-100 and 21-010 extending the warranty to 10 years/150,000 miles for this exact code and symptom on 2017\u20132019 Honda Pilots due to defective fuel injectors and faulty PCM software. However, Honda has arbitrarily excluded my specific VIN from this extension (case number Case # XXX). Honda Corporate has officially denied assistance, forcing me to drive a vehicle with a known fuel system defect that threatens sudden vehicle failure in traffic. I request that the NHTSA investigate Honda\u2019s arbitrary exclusion of affected VINs for this acknowledged safety defect. Thank you INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
-  },
-  {
-    "id": "11743377",
-    "make": "Honda",
-    "model": "Pilot",
-    "year": 2019,
-    "components": [
-      "FUEL/PROPULSION SYSTEM"
-    ],
-    "date": "06/11/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Fuel injector problem requiring replacement. Same code as known vehicles of same make and model under warranty extension. My VIN was not listed to qualify for extended warranty and Honda US refused any assistance in coverage."
-  },
-  {
     "id": "11745880",
     "make": "Honda",
     "model": "Odyssey",
@@ -896,37 +619,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "BELIEVE CAMERA SENSOR IN WINDSHIELD OR BEHIND HONDA EMBLEM CAUSING ISSUES WITH 2019 EX-L MODEL/ CAR WILL POP UP 8 DIFFERENT CODES ENDING WITH \"TRANSMISSION SYSTEM PROBLEM\" MAKING VEHICLE UNABLE TO OPERATE.  IN ADDITION TO TRANSMISSION PROBLEM, IT ALSO TURNS OFF ALL SAFETY FEATURES IN VEHICLE. I HAVE HAD NUMEROUS PEOPLE COMPLAIN ABOUT THIS PROBLEM AS WELL. CAN WE PLEASE GET THIS RECALLED AND FIXED??"
-  },
-  {
-    "id": "11745031",
-    "make": "Honda",
-    "model": "Odyssey",
-    "year": 2019,
-    "components": [
-      "STRUCTURE"
-    ],
-    "date": "06/18/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "While operating the left power sliding door of my 2019 Honda Odyssey, the door came off its tracks during normal use.  As the door disengaged, the rear-side glass shattered.  The failure required replacement of the power sliding door drive motor, center roller, center roller rail assembly, and rear glass.  Broken glass was scattered inside and outside the vehicle, and I sustained a small cut on my hand while cleaning up the shattered glass.  The vehicle had approximately 78,000 miles. I believe a power sliding door should not come off its track during normal operation, and this created a safety hazard to due the shattered glass and potential for occupant injury.  After the door came off its track and the glass shattered, I was unable to close or secure the sliding door.  The vehicle could not be safely operated with the door in that condition, creating an additional safety concern.  I had to take the vehicle around the corner to the closest car repair shop for help with getting the door to shut- they couldn't get the door to shut without cutting the cord."
-  },
-  {
-    "id": "11745168",
-    "make": "Honda",
-    "model": "Odyssey",
-    "year": 2019,
-    "components": [
-      "FORWARD COLLISION AVOIDANCE",
-      "LANE DEPARTURE"
-    ],
-    "date": "06/18/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The DTC U300-49 suddenly failed which affects many of the security systems on the 2019 Honda Odyssey. Upon research, this is very common on the Honda Odyssey caused by it overheating which seems like it should be a dangerous part. It is such an expensive part that we as the consumer have to replace and it should be Honda replacing it if it is their fault that this part fails often. I haven't replaced it as we don't have the funds to replace it, so hopefully it won't pose a safety threat as there are 5 warnings showing on my screen daily."
   },
   {
     "id": "11745393",
@@ -991,36 +683,6 @@
     "summary": "My vehicle started downshifting hard, making a jerking motion, specifically from around 7th-6th gear. It is an automatic transmission but when I went to slow down at stop signs, stop lights, etc. it would make a jerking motion in the slow down process. It has inhibited my ability to drive it. There are times when it have difficulty accelerating. I took it to an independent mechanic shop to have them look at it. Immediately when examining the transmission fluid, it had a strong burning smell. This is not normal. This vehicle has 158,000 miles and has not had issues with the transmission before. There are no warning lights on the dash. I haven\u2019t gotten any notifications that something is wrong in the Ford App. I cannot drive it to work or elsewhere due to the fact of the shifting and not knowing how much longer before it stops working all together. This is a known issue with the transmission my car has and yet does not have a recall."
   },
   {
-    "id": "11744508",
-    "make": "Ford",
-    "model": "Explorer",
-    "year": 2020,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "06/16/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The contact owns a 2020 Ford Explorer. The contact stated that while driving approximately 45 MPH, there was an abnormally loud, dragging sound underneath the vehicle. The contact believed that an object was dragging underneath the vehicle; however, there was nothing on the roadway that could have caused the noise. Shortly afterwards, the message \"System Shift to Park\" was displayed. The driver pulled over and left the vehicle running, but the vehicle failed to shift out of park while attempting to resume driving. The vehicle was towed to the residence. The vehicle was towed to the local dealer the following day, where the vehicle was diagnosed. The dealer determined that the powertrain control module needed to be replaced; however, the repair was denied, and the vehicle was not repaired. The contact stated that the dealer failed to repair the vehicle under NHTSA Campaign Numbers: 23V069000 (Power Train) and 23V675000 (Power Train). The manufacturer was not contacted. The failure mileage was approximately 185,000."
-  },
-  {
-    "id": "11744024",
-    "make": "Ford",
-    "model": "Explorer",
-    "year": 2020,
-    "components": [
-      "EXTERIOR LIGHTING"
-    ],
-    "date": "06/14/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The passenger headlamp has went out and after researching this is supposed to be a lifetime lamp and has become a common issue on these vehicles. If these lamps are malfuntioning it should be recalled because it is a safety issue specially to ones that already have vision issues at night."
-  },
-  {
     "id": "11745877",
     "make": "Ford",
     "model": "Escape",
@@ -1083,37 +745,6 @@
     "summary": "My car has the 8F24 automatic 8-speed transmission. It was a subject to a recall to a fluent league related to the transmission.  My car I have experienced hard shifting that low acceleration, along with sudden deceleration not intended, with a lot of bucking and hesitation, with very hard jerking while trying to accelerate or decelerate car almost feels like something wants to fall out from underneath the car. also wanting to go into automatic parking brake while in motion.. The car has also acted like it will not take gas when It acts like it just not wanting to shift right..  I tried to get a hold of Ford dealership and Ford corporate and was told this is not a recalled issue although it is coming up as a recall.  I was told my car was built at a later date that's why it was not considered as an issue but yet I am having the same issues that many others have complained about. I had took it to AutoZone had them put it on their tester and it does come up with a power train issue relating to the transmission. There is no way for us to check the fluid to see if it's low and transmission fluid.  Also I've experience a burning fluid smell coming from the engine.. Ford is not wanting to address this"
   },
   {
-    "id": "11745110",
-    "make": "Ford",
-    "model": "Escape",
-    "year": 2020,
-    "components": [
-      "FUEL SYSTEM",
-      "GASOLINE"
-    ],
-    "date": "06/18/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The contact owns a 2020 Ford Escape. The contact stated that while driving the vehicle at an undisclosed speed, she noted that the vehicle was not receiving adequate fuel to the engine, which caused the vehicle to jerk excessively. The contact also stated that she had to replace the canister purge valve two times within a single year due to this ongoing issue.. The contact received notification of NHTSA Campaign Number: 25V467000 (Fuel System, Gasoline) however, the part to do the recall repair was not yet available. The local dealer was/was not contacted. The contact stated that the manufacturer had exceeded a reasonable amount of time for the recall repair. The manufacturer was/was not made aware of the issue."
-  },
-  {
-    "id": "11744505",
-    "make": "Ford",
-    "model": "Escape",
-    "year": 2020,
-    "components": [
-      "UNKNOWN OR OTHER"
-    ],
-    "date": "06/16/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Fuel injection recall and the manufacturer does not have a remedy.  Car will not pass Massachusetts safety inspection because of the recall so the car is undrivable. Potential engine fire The dealership does not have the ability to fix the recall problem. What are my rights?"
-  },
-  {
     "id": "11744985",
     "make": "Ford",
     "model": "Mustang",
@@ -1172,36 +803,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "Left for work. Started running funny, stalled-started-stalled-started on my street. Got on highway about 1/2 mile, check engine light & engine temp light came on. Got off highway and called a tow to SARASOTA FORD. Tech ran diag. for codes, codes found.: P1285( cylinder head over temp ), P0316(engine misfire ), P0304( cylinder 4 misfire ), P0303(cylinder 3 misfire ), P0302( cylinder 2 misfire ), P217( engine coolant over temp ),.. Tech removed spark plugs and saw coolant in cylinder's ( 2,3,4 ) with a bore scope. Ongoing problem I found out about after the fact with the ( 2015-2019, 2.3L EcoBoost .. \"ECO-BOOM\" motor ). Specifically between cylinder's 2 & 3... Was quoted a repair cost of over $10,000.00 -12,000.00 dollars. It's been next to my house for almost a year now. Bought the car used in JANUARY 2021 with my son with no explanation of the known problem. If known I would not have bought the car, 2019/FORD/MUSTANG/2DR CPE ECOBOOST FASTBACK. Diagnostics were done on 06/04/2025 at ... Incident happened around 05/30-31/2025, That's about all I got"
-  },
-  {
-    "id": "11737649",
-    "make": "Ford",
-    "model": "Mustang",
-    "year": 2019,
-    "components": [
-      "ENGINE AND ENGINE COOLING"
-    ],
-    "date": "05/13/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The contact owns a 2019 Ford Mustang. The contact stated while driving at an undisclosed speed, the accelerator pedal was depressed, however the vehicle failed to accelerate as intended. The vehicle's speed did not accelerate above 20 MPH. In addition, the check engine warning light illuminated. The vehicle was driven to the shoulder of the road. The vehicle was towed to the contact's residence. The vehicle was taken to an independent mechanic where it was diagnosed with coolant intrusion and a failed engine. The contact was informed that the engine needed to be replaced. The vehicle was not repaired. The vehicle was taken to the dealer where it was diagnosed with coolant intrusion and a failed engine. The contact was informed that the engine needed to be replaced. The vehicle was not repaired. The manufacturer was not made aware of the failure. The failure mileage was approximately 103,000."
-  },
-  {
-    "id": "11736526",
-    "make": "Ford",
-    "model": "Mustang",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "05/08/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Rebuilt transmissions are bad. Two in the last four weeks have been placed in my 2019 California Special Edition Mustang, and both are bad. They both came from the Ford manufacturer. The transmission locks up at any point while driving at any speed, causing the car to jerk to a standstill, and only while you are driving. We were on 465, and the car automatically stopped in the middle of the highway while other vehicles were flying by and behind me. We were almost hit by several vehicles. This also occurred while the mechanic test drove the car with the second rebuilt transmission placed in my car. No warnings, nothing before this occurred. This is a huge safety hazard and risk for many. The dealership is aware and advised me to contact Ford Motor Company and not to drive my car until something can be done. I have contacted Ford Motor Company, and they have yet to do anything or reach back out to me regarding this safety issue. The car is available for inspection at any time needed since it is still sitting at the dealership with the second rebuilt transmission in it that is no good."
   },
   {
     "id": "11677796",
@@ -1265,37 +866,6 @@
     "summary": "The contact owns a 2020 Ford F-150. The contact stated that upon attempting to unlock the doors of the vehicle with the key fob, only the front driver's side door unlocked. There was no warning light illuminated. Additionally, the contact stated that while attempting to manually unlock the tailgate, the tailgate failed to unlock as intended. The dealer was contacted and informed the contact that the failure could be related to an unknown actuator recall.  The vehicle was not diagnosed or repaired. The manufacturer was notified of the failure, and a case was filed. The contact was referred to the NHTSA Hotline for assistance. The failure mileage was approximately 67,000."
   },
   {
-    "id": "11677302",
-    "make": "Ford",
-    "model": "F-150",
-    "year": 2020,
-    "components": [
-      "ELECTRICAL SYSTEM",
-      "SERVICE BRAKES"
-    ],
-    "date": "07/30/2025",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "i AM RECEIVING ALERTS ON MY FORD APP STATING THAT IT IS A PARKING AID ALERT BECAUSE OF ELECTRICAL ISSE WITHIN THE VEHICLE.   ALSO STATES TO SERVICE ENGINE SOON ALERT BECAUSE OF ELECTRICAL ISSUE HAS BEEN DETECTED WITH YOUR VEHICLE.  THIS MAY CAUSE THE ENGINE START/STOP FEATURE (IF EQUIPPED) TO NOT WORK.   CHECKING ON THIS I FOUND 0  ON THE NHTSA WEBSITE FOR RECALLS.  WITH FURTHER CHECKING I WAS INFORMED THAT THIS SHOULD BE A RECALL TO BE DONE.   PLEASE LET ME KNOW IF I CAN GET THIS REPAIRED UNDER THE RECALL.   I ALSO NOTICE WHEN STARTING MY VEHICLE IN THE MORNINGS THAT IT SMOKES OUT OF BOTH TAILPIPES AND LASTS APPROXIMATELY ONE TO TWO MINUTES.  [XXX]  [XXX] .  THANK YOU.  MY EMAIL IS ALSO [XXX]  ADDRESS IS [XXX] , EDNA, TEXAS  [XXX]  INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
-  },
-  {
-    "id": "11676877",
-    "make": "Ford",
-    "model": "F-150",
-    "year": 2020,
-    "components": [
-      "ENGINE AND ENGINE COOLING"
-    ],
-    "date": "07/29/2025",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The contact owns a 2020 Ford F-150. The contact stated that while her husband was driving approximately 20 MPH, the check engine warning light illuminated. There was an abnormal burning odor coming from the vehicle. The driver drove to the residence. The vehicle was turned off and restarted and there was smoke coming from the engine with a loud screeching sound. The vehicle was taken to the local dealer, where it was determined that the cam sensor was defective and caused the engine to overheat. Additionally, the engine was low on oil. The contact stated that an oil change was previously performed. The vehicle was not repaired. The manufacturer was contacted, and a complaint was filed. The manufacturer confirmed that the VIN was not under recall and that there was no financial assistance available. The failure mileage was approximately 102,000."
-  },
-  {
     "id": "11746286",
     "make": "Chevrolet",
     "model": "Silverado 1500",
@@ -1354,37 +924,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "Engine light came on and off and June 10, 2026 The truck just stole and no power to go"
-  },
-  {
-    "id": "11743651",
-    "make": "Chevrolet",
-    "model": "Silverado 1500",
-    "year": 2020,
-    "components": [
-      "POWER TRAIN",
-      "ENGINE"
-    ],
-    "date": "06/12/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "I'm experiencing all the documented issues with the 10L80 10 speed transmission. Identical to all the recalls. It's shifting poorly, torque converter shudder, lose of power, unreliability, and serious safety concerns. I've tried to communicate and find a resolution to these issues through the dealership and GM. Of course getting nowhere. I don't feel a 60k dollar truck should be in this kind of condition. Recently the ac compressor went out. Conveniently after the 6.2 was considered faulty and was replaced but transmission denied. Which the dealership GM expressed in no way was any factors the warranty companies claims of a taller tire being on the truck. Being the issue at all for the transmission failure. Also the dealership didn't check a box. One that I can not physically check. Which they put on me. They swapped the stock tires to the taller brand new set I'd just bought for my trade in. Never stating anything about the tires being taller voiding the warranty I just paid for. Why would I deny the part of the extended warranty that I wanted. Cause of the suspension and drivetrain. Either way this truck is not safe to be on the road. It struggles to maintain speed on the highway. Eventually leading to the torque converter free spinning and making all kinds of noises and vibration. Of course once I've assisted it to violently shift through the gears and hopefully into 10th. On occasions it never makes it that far. Either way I feel this falls directly into the recalls with the same model and year. They replaced the 6.2 cause of cylinder failure and oil consumption. Well the next in line for the drive train is the junk 10 speed. Not sure how it can't be related. The long and stressful time. I've put into finding a solution with the dealer or manufacturer. They blow me off or just don't give me any info. I feel that's their way of dismissing not only the failure of the salesman not properly doing his job. Which the GManager also stated mistakes happen. Not OK"
-  },
-  {
-    "id": "11743405",
-    "make": "Chevrolet",
-    "model": "Silverado 1500",
-    "year": 2020,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "06/11/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "GM has a known recall and special coverage N242454441 to cover the exact same issue I experienced on my way home from work. However, I am informed my model is not included in this special coverage. The issue I experienced while attempting to turn into my apartment complex on a busy road [XXX] my rear wheels locked up mid turn no warning signs, no lamps, no messages or other symptoms were present. Almost causing me to get into an accident had traffic not stopped. I was able to shift it into park and then to drive to immediately pull off to the side into a parking lot and put my OBD reader I have P0747 solenoid 1 failed locked on. I was informed by GM that they could attempt to reprogram the transmission control model, however based on research this is not the root cause of the issue it is due to the soft aluminum bores causing the transmission module to ware and fail. I have a service appointment on 6-12-26 at 10 am at Bill Cramer GM in Panama City, FL INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
   },
   {
     "id": "11742004",
@@ -1447,37 +986,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "Vacuum pump failed: On May 28th, 2025 the brake pedal on our 2019 Chevrolet Equinox became very hard along with check engine light, a \"Reduced Power\" notification, and \"Brake Assist Failure\" notification. After a mechanic inspected the engine, he found that the vacuum pump had shattered. The mechanic replaced the pump with an OEM replacement from GM.   On May 11th, 2026 the same exact issue happened again.   1. The vehicle and/or part is available for inspection. 2. Anyone driving or riding in the vehicle is at risk due to the difficulty of braking. 3. The vehicle/component has not been inspected by the manufacturer since the 2nd incident."
-  },
-  {
-    "id": "11736777",
-    "make": "Chevrolet",
-    "model": "Equinox",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "05/09/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The transmission system failed abruptly. I pulled away from a stoplight, had accelerated to 20-25 mph, and then the car came to a sudden stop, as if someone had put on an emergency brake. It continued to act as if the brake was on when I tried to go forward or reverse. I put it into neutral so that I could push it off the road. I realized it would drive slowly in neutral, so  I drove it less than a mile back to my workplace.   Regarding safety, I nearly got rear-ended when the car stopped suddenly. This endangered me and the other driver. I was headed to the freeway, then would have been crossing a bridge, to get home, so the danger could have been amplified.   The dealership's service manager told me that something internally had failed in the transmission. As far as I know they haven't taken it apart to find out what internally failed. They told me that the transmission needed to be replaced. As far as I know, no one has inspected the internal components of the transmission.  There were no warning lamps, messages, or symptoms prior to this incident."
-  },
-  {
-    "id": "11736352",
-    "make": "Chevrolet",
-    "model": "Equinox",
-    "year": 2019,
-    "components": [
-      "SERVICE BRAKES",
-      "ENGINE"
-    ],
-    "date": "05/07/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "I was trying to stop at a light and the brakes wouldn't work. I almost crashed into the car in front of me but I had to step on it really hard to stop. Then the brakes were stiff and it was hard to stop. I brought it to a Chevy dealer yesterday and they said the vacuum pump exploded and pieces were in the engine, and it messed up the cam shaft. This is 5l worth of damage. When I looked it up online it seems this has been an issue with GM cars and the equinox was left out of the recall which could have prevented this. I have 95k miles on this car and never had an issue until now. However it is not worth spending 5k on a car that is high in mileage."
   },
   {
     "id": "11742162",
@@ -1546,38 +1054,64 @@
     "summary": "The contact owns a 2019 Chevrolet Malibu. The contact stated that upon shifting to park(P) and attempting to turn off the vehicle, the message \"Shift to Park\" was displayed. While investigating the failure online, the contact became aware that it was a common failure, and there was an ongoing Class Action Lawsuit related to the failure. The dealer was notified of the failure and informed the contact that the VIN was not included in a related recall. The vehicle was not diagnosed or repaired. The manufacturer was not contacted.  The failure mileage was approximately 91,000."
   },
   {
-    "id": "11727960",
+    "id": "11729996",
     "make": "Chevrolet",
-    "model": "Malibu",
+    "model": "Corvette",
     "year": 2019,
     "components": [
-      "ELECTRICAL SYSTEM",
-      "EXTERIOR LIGHTING",
-      "AIR BAGS"
+      "WHEELS"
     ],
-    "date": "03/30/2026",
-    "crash": true,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "I am reporting a safety concern involving a 2019 Chevrolet Malibu. The vehicle was previously involved in accidents prior to my purchase and had known mechanical issues, including a gear shifting problem that was not properly repaired.  In February 2024, while the vehicle was insured under Ocean Harbor Casualty Insurance Company, it sustained a significant front-end collision impacting the driver side. The impact was severe enough to cause structural damage, including a dent to the vehicle frame.  Despite the severity of the collision, the airbags did not deploy at all. Based on the extent of the damage, airbag deployment would reasonably be expected.  Prior to this incident, the vehicle had ongoing issues following repairs, including system errors and concerns that repairs may not have been properly completed by a certified facility.  This raises concern that the airbag system may have been defective, improperly repaired, or compromised prior to the accident. I was not informed of any airbag or safety-related defects at the time of purchase from HGreg.  I am submitting this complaint due to concerns of a potential safety defect involving failure of the airbag system during a serious collision."
-  },
-  {
-    "id": "11725206",
-    "make": "Chevrolet",
-    "model": "Malibu",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN",
-      "VEHICLE SPEED CONTROL",
-      "ENGINE"
-    ],
-    "date": "03/18/2026",
+    "date": "04/08/2026",
     "crash": false,
     "fire": false,
     "injuries": 0,
     "deaths": 0,
-    "summary": "Year 2019, code P1101- vehicle hesitates while drive, will reduce power while driving, while sitting idle at a stop the car will die and I will have to restart the vehicle. Multiple times while driving on the highway at 70mph my car has all of a sudden either reduced power causing the car to jerk and shudder very hard or has lost all power completely and forced me to pull over while avoiding other drivers on the road. SOMEONE IS GOING TO DIE BECAUSE OF THIS!!! THIS NEEDS TO BE ADDRESS AND RECALLED ASAP TO GET IT FIXED. I am not in a financial spot to just go buy a new car and I shouldn't have too either.  I'm scared to even drive 10 miles down the road to take my children to daycare/school because of how bad it is."
+    "summary": "Well known and documented failure of 2015-2019 Corvette ZO6 and Grand Sport wheels cracking prematurely due to poor manufacturing process. General Motors/Chevrolet has already publicly admitted liability to avoid court cases already filed. They agreed to offer extended warranty to owners of affected vehicles in 2024, offering full replacement cost of defective wheels. They assigned a company, Analytics Consulting LLC of [XXX] , to administer the claim process. I received my claim form in July of 2024. I filled out and supplied all required documentation on August 20, 2024, they later acknowledged receipt August 22, 2024. All claim forms were required to be sent by January 25, 2025. They informed me by phone call that they would not begin processing claims until March 1, 2025. All through the Summer of 2025, after several phone calls, that no information would be released as to the completion of processed claims until all claims had been completed. No time line given or offered. To date there has been no other information or updates on when the claims will be paid. I have filed a claim with the State of Georgia Attorney Generals office, they were unable to help. I have gone to the local ABC news station where they did a story on the issue, no resolution. This is a national issue for all owners of the affected vehicles. There have been many articles and videos published regarding the issue. Analytics Consulting is holding those with a legitimate claim hostage.  INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11722709",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "year": 2019,
+    "components": [
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "03/07/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Driver side rear upper fender scoop came off at highway speeds."
+  },
+  {
+    "id": "11716727",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "year": 2019,
+    "components": [
+      "LATCHES/LOCKS/LINKAGES"
+    ],
+    "date": "02/09/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 1,
+    "deaths": 0,
+    "summary": "The contact owns a 2019 Chevrolet Corvette. The contact stated that after parking in the driveway and turning the vehicle off, the doors would not open, trapping the driver and a front seat passenger inside the vehicle. The contact attempted to activate the emergency release to open the hard top roof but the emergency release did not operate. A friend was called to the home and attempted to pry open the hard roof, and the roof suddenly opened the doors were able to be opened. During the incident, the front seat passenger had trouble breathing while trapped inside the vehicle. The cause of the failure was not determined. The local dealer was contacted and scheduled a service appointment. The manufacturer was not notified of the failure. The failure mileage was 17,000."
+  },
+  {
+    "id": "11689542",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "year": 2019,
+    "components": [
+      "WHEELS"
+    ],
+    "date": "09/24/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Two of the wheels of my 2019 Corvette have cracked. GMC has turned this issue over to Analytics Consulting LLC to reimburse those owners that have had a problem with cracked wheels.  I submitted a claim for one of the wheels, in July of 2025 and have yet to hear from them.  In the mean time I had another wheel crack but I can not claim that one because it's beyond the date they set.  I contacted GMC and their response was they couldn't do anything for me.  My point in this whole matter is that I've had two wheels crack but I still have two that might crack.  GMC admits to defective wheels and yet there was never a recall. They are playing Russian roulette with Corvette wheels that are on the road daily. I've had costly repair bills for wheels that were defective when GMC put them on my car.  These wheels could crack at any point while I'm driving or God forbid when my wife is driving.  She doesn't want to ride in the car anymore because she feels it's unsafe.  I can't sell it because I would have to affirm that these wheels might crack.  Who would buy my car?  The value of my dream car has plummeted.  I'd like reimbursed for the two I've already paid for and all four wheels replaced with wheels that have been tested and  new ones that are proven to be safe.  Is it too much to ask GMC to build safe cars?  They say it is important to them that the customer satisfaction and safety is utmost. I'm asking them to live up to that so I need your help to see that they do."
   },
   {
     "id": "11746324",
@@ -1640,36 +1174,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "The forward-facing camera and Autopilot computer system on my 2021 Tesla Model 3 has failed. The dashboard first showed intermittent warnings that \"Automatic Emergency Braking is currently unavailable\" and \"Adaptive headlight features are unavailable.\" Over several weeks the problem worsened from intermittent to constant, and the vehicle progressively lost its forward road visualization and all active safety features. Using the vehicle's Service Mode diagnostics, the Autopilot computer's Primary (A) processing node reports a \"CRITICAL\" status. The fault log records repeated alerts including dasMIA (driver-assistance system not responding), aebFault (automatic emergency braking fault), and fisheyeCamInitFault and fisheyeCameraStreamExit (forward camera initialization and stream failures). The cameras themselves are physically clean and unobstructed. Safety risk: the failure disables Automatic Emergency Braking and forward collision avoidance, lane-keeping/driver assistance, and the adaptive auto high-beam headlights. AEB is a critical crash-avoidance system; losing it leaves the vehicle unable to brake automatically for an imminent collision, and the loss of adaptive headlights reduces nighttime visibility. A Tesla service center inspected the vehicle, confirmed the diagnosis, and determined the Autopilot computer \u2014 a sealed, solid-state control unit \u2014 had failed and required full replacement at approximately $3,400. The vehicle is well under 50,000 miles. This failure appears consistent with the same car-computer power-component shorting failure for which Tesla issued a recall on its newer model-year vehicles. The vehicle and the failed component are available for inspection on request. The vehicle has not been inspected by police or insurance."
-  },
-  {
-    "id": "11741063",
-    "make": "Tesla",
-    "model": "Model 3",
-    "year": 2021,
-    "components": [
-      "FUEL/PROPULSION SYSTEM"
-    ],
-    "date": "05/30/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "BMS_a079 error. Battery is no longer able to charge. High voltage battery will need to be replaced. Basically rendering the vehicle useless unless the battery is replaced."
-  },
-  {
-    "id": "11738583",
-    "make": "Tesla",
-    "model": "Model 3",
-    "year": 2021,
-    "components": [
-      "SEAT BELTS"
-    ],
-    "date": "05/18/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The driver-side seat belt buckle/receptacle failed during normal use. There was no collision, impact, or misuse involved. While using the seat belt as intended, the buckle assembly separated/broke unexpectedly, causing the seat belt to no longer function properly.  This appears to be a failure of a critical safety component rather than normal wear and tear. The vehicle should not be considered safe to operate until the restraint system is properly inspected and repaired.  The failure occurred without warning and under ordinary driving conditions."
   },
   {
     "id": "11741791",
@@ -1735,38 +1239,6 @@
     "summary": "Odometer Fraud. The contact purchased a 2020 Tesla Model Y. It was discovered that there was a mileage discrepancy. The vehicle was a dealer sale. At the time of purchase, the vehicle mileage was 78,823, but after driving the vehicle from the dealer's lot, the contact discovered through the vehicle settings that the actual mileage was 80,810. The dealer was contacted, but no resolution was provided. The dealer then updated the advertised mileage on the website."
   },
   {
-    "id": "11731004",
-    "make": "Tesla",
-    "model": "Model Y",
-    "year": 2020,
-    "components": [
-      "UNKNOWN OR OTHER",
-      "BACK OVER PREVENTION"
-    ],
-    "date": "04/14/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "My Tesla Model Y 2020 (VIN: [XXX] ) is stuck on software version 2023.44.1 for more than 2 years and has four incomplete NHTSA safety recalls: \u2022  23V838 \u2013 Autosteer driver monitoring improvements \u2022  24V051 \u2013 Brake/Park/ABS warning font size too small \u2022  24V153 \u2013 Muted Pedestrian Warning System \u2022  24V554 \u2013 Hood not detected as unlatched\u2028Tesla Service in the Baltic region and Tesla Service in Warsaw (Poland) both refused to deliver the required OTA safety recall updates. They classified the vehicle as \u201cunsupported\u201d because it is a US-market vehicle located in Latvia.\u2028I am unable to bring the vehicle to any Tesla Service Center.\u2028Tesla is not fulfilling its legal obligation to provide the free safety recall remedies. Please require Tesla to deliver the updates or provide a proper solution.\u2028Attached: screenshots of refusals from Tesla Service (Baltic  Warsaw).\u2028 INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
-  },
-  {
-    "id": "11723972",
-    "make": "Tesla",
-    "model": "Model Y",
-    "year": 2020,
-    "components": [
-      "SEAT BELTS",
-      "SEATS"
-    ],
-    "date": "03/12/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Vehicle had \"front passenger safety restraint system fault\" multiple times intermittently. Serviced by Tesla service center in Dublin, CA who confirmed the problem. Documentation on the invoice stated that there was an open service bulletin related to this issue and was related to \"the occupancy sensory in the seat was not functioning as expected.\" Upon inspection by the technician they found \"an open connection in the seat harness and seat cover that can cause intermittent alerts.\" Additional repair notes indicate that this was to \"address a service bulletin related to the front passenger seat's occupant classification system. We identified the need for an update to ensure proper functionality. To resolve this, we retrofitted the system in the front passenger seat as per the bulletin requirements.\" The fact that there is an open service bulletin for this issue indicates that it is not isolated to just this vehicle. An issue with the occupant sensors of a front vehicle seat directly impacts whether the air bags will deploy in a crash, therefore this is a serious safety risk."
-  },
-  {
     "id": "11743253",
     "make": "Nissan",
     "model": "Altima",
@@ -1825,37 +1297,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "Engine Malfunction light is on and off while at a stop light."
-  },
-  {
-    "id": "11736193",
-    "make": "Nissan",
-    "model": "Altima",
-    "year": 2019,
-    "components": [
-      "UNKNOWN OR OTHER",
-      "FORWARD COLLISION AVOIDANCE"
-    ],
-    "date": "05/06/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Have been getting \u201cengine malfunction power reduced\u201d already had it repaired once. Not sure what is causing this since it was just \u201crepaired \u201c.  New battery in place.  Also has accident icons on dashboard"
-  },
-  {
-    "id": "11736209",
-    "make": "Nissan",
-    "model": "Altima",
-    "year": 2019,
-    "components": [
-      "ELECTRICAL SYSTEM"
-    ],
-    "date": "05/06/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "I bought my 2019 Nissan Altima SR from Westshore Mazda in Tampa. The next day I locked and unlocked the car and noticed that only the driver\u2018s door was working so three out of the four doors don\u2019t lock and unlock by either the driver side door or the key fobs. I looked this up online and noticed it\u2019s a defect on a lot of these models and the sentras."
   },
   {
     "id": "11745552",
@@ -1919,34 +1360,68 @@
     "summary": "Confirmed transfer case broken by independent auto technician.,  No warning lamps detected"
   },
   {
-    "id": "11738007",
+    "id": "11738925",
     "make": "Nissan",
-    "model": "Rogue",
+    "model": "Sentra",
     "year": 2019,
     "components": [
-      "SEATS"
+      "SUSPENSION",
+      "POWER TRAIN",
+      "ELECTRICAL SYSTEM"
     ],
-    "date": "05/15/2026",
+    "date": "05/20/2026",
     "crash": false,
     "fire": false,
     "injuries": 0,
     "deaths": 0,
-    "summary": "The contact owns a 2019 Nissan Rogue. The contact stated that while driving at 70 MPH, the seat heater on the front passenger seat was on and overheated, causing smoke to come from the seat. It had burned through the leather seat and caused a hole. The vehicle was not taken to the dealer for diagnosis or repair. The manufacturer was not informed. The failure mileage was approximately 92,000."
+    "summary": "Transmission  Failure of drive train Acknowledged by Dealer Inspection by Dealer No warning signs prior to failure"
   },
   {
-    "id": "11735525",
+    "id": "11738494",
     "make": "Nissan",
-    "model": "Rogue",
+    "model": "Sentra",
     "year": 2019,
     "components": [
-      "BACK OVER PREVENTION"
+      "ELECTRICAL SYSTEM",
+      "EXTERIOR LIGHTING"
     ],
-    "date": "05/04/2026",
+    "date": "05/18/2026",
     "crash": false,
     "fire": false,
     "injuries": 0,
     "deaths": 0,
-    "summary": "The contact owns a 2019 Nissan Rogue. The contact stated that while in reverse(R), the screen would display a blank image. The contact stated that the camera would operate normally when pressing the camera button; just not while the vehicle was in reverse(R). Upon investigation, the contact discovered NHTSA Campaign Number: 19V654000(Back Over Prevention) which he linked to his failure. The contact called several dealers in his area and all informed the contact that his vehicle was not included in the recall. An email was sent to the manufacturer and the contact received a response that there were no recalls or warranties on the vehicle. The vehicle was not repaired. The failure mileage was approximately 120,000."
+    "summary": "The contact owns a 2019 Nissan Sentra. The contact stated that while his daughter attempted to start the vehicle, the vehicle failed to start immediately. The contact's daughter pressed the engine Auto Start/Stop button again, the vehicle restarted. The contact had AAA test that the battery, which had no failure, and it was determined that the brake light switch had failed. The cruise control later failed to operate as needed, and the message \"Automatic Emergency Braking Malfunction\" was displayed. The contact stated that the failure occurred intermittently. The dealer was made aware of the failure and informed the contact that the vehicle had previously been repaired under NHTSA Campaign Number: 21V135000 (Exterior Lighting). The vehicle was not diagnosed or repaired. The manufacturer was not made aware of the failure. The failure mileage was approximately 46,000."
+  },
+  {
+    "id": "11735359",
+    "make": "Nissan",
+    "model": "Sentra",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "05/03/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I am filing this complaint against Nissan North America due to a recurring transmission failure in my 2019 Nissan Sentra VIN#: [XXX] .   Timeline of Events:  Initial Purchase: November 2022 (61,000 miles).   First Failure: September 2023 (~75,000 miles). Nissan replaced the transmission under the extended CVT warranty (84 months/84,000 miles) established by the Martinez v. Nissan class action settlement.   Second Failure: March 2026 (109, 497 miles). The replacement unit has failed after only 31,000 miles of use.   Nissan will not cover the repairs due to the mileage being out of warranty. The estimated cost per McGrath Nissan Dealer is $8,000, I am unable to afford this service so the car was towed back to my home until able to get resolution.    Issues with Nissan\u2019s Resolution Process: Premature Part Failure: The transmission installed by Nissan in 2023 should have a reasonable life expectancy beyond 31,000 miles. A secondary failure this soon suggests a defective replacement part or improper initial repair.  Safety: Luckily, my husband was stopped at a traffic light when the transmission failed. However, had to receive help to push the vehicle out of the busy intersection.   There was no warning message displayed on the dashboard prior to this incident.   INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11732280",
+    "make": "Nissan",
+    "model": "Sentra",
+    "year": 2019,
+    "components": [
+      "UNKNOWN OR OTHER",
+      "FUEL/PROPULSION SYSTEM"
+    ],
+    "date": "04/19/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "It\u2019s  heisitant when excelerating gas pedal.   The back up camera display blanks out , when backing up ."
   },
   {
     "id": "11744557",
@@ -2009,36 +1484,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "I just had a recall repair for my ABS system which was electrical done to my 2019 jeep grand Cherokee. I drove off the lot with it but the next day it wouldn't start, I called the dealership back for an inspection but they stated I would have to pay for a diagnostic. I stated the code that came up when I hooked my OBD scanner up the code for my park, neutral, switch input circuit popped up. I told the dealership numerous times about the code but they are ignoring the code and saying it is my starter and batteries. Mind you I take it to this dealership all the time I never once heard them say I needed any of these things until now. So I told them I need a diagnostic on the electrical issue but once again they are brushing off the circuit code and jumping to the starter but stated I would have to pay $2,319 for a starter and see what comes up, which means spending money for something that is not the problem."
-  },
-  {
-    "id": "11734160",
-    "make": "Jeep",
-    "model": "Grand Cherokee",
-    "year": 2019,
-    "components": [
-      "SUSPENSION"
-    ],
-    "date": "04/27/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The air suspension / Quadra-Lift system on my 2019 Jeep Grand Cherokee Overland with approximately 87,000 miles has failed and is available for inspection upon request. The vehicle is becoming stuck in Off Road 1 ride height and will not reliably return to normal height. When I am able to get it to lower, it raises itself back into Off Road 1 again without command. I also observed that one wheel/corner of the vehicle was sitting higher than the others, indicating the suspension may be uneven or malfunctioning.  This creates a serious safety risk because the vehicle height changes unexpectedly and remains in an elevated off-road mode not intended for normal road use. It can affect handling, steering stability, braking, visibility, headlight aim, tire wear, and rollover risk, especially at highway speeds or during emergency maneuvers. Uneven ride height from one side to another further increases the risk of loss of control.  Prior to complete failure, symptoms included abnormal vehicle stance and the suspension not responding normally to ride height changes. Warning messages/lights: UNKNOWN at time of filing.  The problem has not yet been confirmed by a dealer or independent repair facility, but online research shows many owners reporting similar Quadra-Lift air suspension failures around similar mileage. This appears to be a common premature failure involving air struts, sensors, compressor, or related components.  The vehicle has not yet been inspected by the manufacturer, police, or insurance representatives. I am filing this complaint because this suspension defect impacts safe operation of the vehicle and may affect many owners."
-  },
-  {
-    "id": "11731675",
-    "make": "Jeep",
-    "model": "Grand Cherokee",
-    "year": 2019,
-    "components": [
-      "SEAT BELTS"
-    ],
-    "date": "04/16/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The front seatbelt latch on my 2019 Jeep Grand Cherokee will not latch or secure properly. The buckle fails to engage when inserted, leaving the seatbelt unusable. This creates a serious safety hazard because the occupant cannot be restrained while the vehicle is in motion. The issue occurs every time the seatbelt is used and has not resolved on its own."
   },
   {
     "id": "11745666",
@@ -2104,36 +1549,6 @@
     "summary": "Went to start the jeep and the entire dash cluster was out. I had just gotten it serviced 2 days before it went out and there was no warning or indication that the cluster panel was damaged. Due to this issue I\u2019m unable to see any speed, gas levels, signaling, oil level and any other signal indicators from the dash. This is extremely problematic and renders the vehicle unsafe to drive. It was inspected by the dealership and another mechanic and both parties confirmed the dash cluster was broken and needed to be replaced and that several other 2019-2020 jeep wranglers had been brought in with the same problem."
   },
   {
-    "id": "11743379",
-    "make": "Jeep",
-    "model": "Wrangler",
-    "year": 2019,
-    "components": [
-      "SERVICE BRAKES"
-    ],
-    "date": "06/11/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "3 calipers seized at the same time. Replaced all 3. After leaving the mechanic my front passenger seized again, went back to the mechanic & they re did the caliper. A week later the front passenger seized again. They replaced the hose (hose was clamped) 3 days later the front passenger hose clamped again causing the caliper to seize."
-  },
-  {
-    "id": "11743553",
-    "make": "Jeep",
-    "model": "Wrangler",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "06/11/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "In June 2025, I had the clutch recall (NHTSA 23V-116) performed on my 2019 Jeep Wrangler at AutoNation Jeep Southwest in Littleton Colorado. Prior to this recall repair, the vehicle had no transmission faults or warning lights. Following the recall work, I began experiencing a recurring 'Service Transmission' warning. On a return visit, the dealership discovered they had incorrectly reinstalled the shifter cables during the recall repair, making it difficult to shift into first gear. The cables were redone. The 'Service Transmission' warning continued after the cable rework. The dealership performed a software flash on a subsequent visit, which did not resolve the issue. The vehicle later experienced a 'Service Transmission' warning accompanied by a clutch overheat alert and limp mode activation. The dealership has since diagnosed fault codes P082C and P082F (gear lever position sensor circuit high) and is recommending a transmission range sensor replacement at my expense. The dealership has acknowledged they cannot confirm the root cause of these codes. When I contacted Jeep Customer Care, they called the dealership and accepted their assessment that the issue is unrelated to the recall repair. I believe the ongoing fault codes are a direct result of the defective recall remedy, specifically the incorrect shifter cable installation and subsequent cable disturbance during rework. I am requesting NHTSA investigate whether the recall remedy as performed at this dealership is defective."
-  },
-  {
     "id": "11739748",
     "make": "Hyundai",
     "model": "Elantra",
@@ -2195,34 +1610,69 @@
     "summary": "Highbeam shutters stop working. When engaged the solenoid engages, the shutter attempts to activate (wobbles) but never does. The indicator inside also lights up despite the shuttee never opening."
   },
   {
-    "id": "11732615",
+    "id": "11744669",
     "make": "Hyundai",
-    "model": "Elantra",
+    "model": "Tucson",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "ENGINE"
+    ],
+    "date": "06/17/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The 2019 Tucson has 60,413 miles.  My daughter drives it very low mileage - a couple of miles a day back and forth to school.  Friday she was driving and the car lost engine power and it stopped driving.  No warning lights. There was a cloud of smoke and it smelled like burning plastic. She was on a busy road but pulled over and quickly exited the vehicle. I had it towed and the mechanic says the engine oil was empty and the engine has seized.  We do regularly scheduled oil changes.  No lights or warnings and the car just stopped in traffic."
+  },
+  {
+    "id": "11740933",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN",
+      "ENGINE"
+    ],
+    "date": "05/29/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "While driving, the check engine light began flashing and the vehicle shook severely due to engine misfiring. The vehicle has had a recurring cylinder 3 misfire throughout ownership. Spark plugs and ignition coils were first replaced around 40,000 miles and replaced again in December 2025 for the same recurring issue. A Hyundai dealership inspected the vehicle and found codes P0300 random misfire and P0303 cylinder 3 misfire. The dealership technician documented that the piston rings did not look good and confirmed the catalytic converter was damaged as a result of the misfires. The vehicle has had an engine rattle at idle, oil consumption, and blow-by since early in ownership. The engine defect is progressive and predates the current mileage. The flashing check engine light and severe shaking while driving at highway speeds created an unsafe condition with other vehicles on the road. The problem has been confirmed by a Hyundai dealership. Hyundai Motor America was contacted and denied goodwill warranty assistance. The vehicle is available for inspection upon request."
+  },
+  {
+    "id": "11739697",
+    "make": "Hyundai",
+    "model": "Tucson",
     "year": 2019,
     "components": [
       "ENGINE"
     ],
-    "date": "04/21/2026",
+    "date": "05/23/2026",
     "crash": false,
     "fire": false,
     "injuries": 0,
     "deaths": 0,
-    "summary": "The engine  defected  at 82000 i had it for a year can u guys please  make it right  as a valuable  customer"
+    "summary": "The vehicle will not get to highway speed causing it to impede traffic and presenting a safety risk for collision."
   },
   {
-    "id": "11731365",
+    "id": "11738088",
     "make": "Hyundai",
-    "model": "Elantra",
+    "model": "Tucson",
     "year": 2019,
     "components": [
-      "EXTERIOR LIGHTING"
+      "SERVICE BRAKES",
+      "HYDRAULIC",
+      "ELECTRICAL SYSTEM",
+      "VISIBILITY"
     ],
-    "date": "04/15/2026",
+    "date": "05/15/2026",
     "crash": false,
     "fire": false,
     "injuries": 0,
     "deaths": 0,
-    "summary": "During my state inspection it was noted that my high beams were not properly functioning. The garage tested my bulb and said it appeared to be a malfunction of the flap assembly in the headlamps. We checked online for information on how to proceed and noted a recall campaign T5G that was aimed at the exact problem we noted. I called our local Hyundai dealer (Woodall Hyundai; Danville,VA) to schedule for the recall. The scheduler stated that according to their records, they completed this recall in 2/2024. I do remember getting notified by them regarding a recall to which they had my car for a day to complete the necessary work. Myself and my original garage mechanic reviewed the recall directions that stated that this specific recall requires drilling into the headlamp to evaluate the high beam actuator lever. I informed the dealer that I did not see evidence of the completed work.  They stated that they would have to have the car back for a diagnostic visit. I took my vehicle in; paid a $150 fee to be told that yes, my high beams are not working properly and would cost about $2000 to repair the headlamp assemblies. I escalated my concerns to corporate Hyundai who followed up with the dealer who insisted that I was responsible for the repair. I took my car to a different independent Hyundai dealer (Capital Hyundai in Greensboro, NC) who confirmed upon inspection that the recall Woodall Hyundai states they completed was never performed. They contacted corporate Hyundai to reopen my recall campaign and are repairing the assemblies.  Woodall Hyundai fraudulently charged Hyundai for a repair kit they claim to have used for the T5G recall. They did not complete the job yet stated they did. They lied repeatedly to myself and corporate when investigating. This has delayed my state inspection. This has caused loss of use of my vehicle for the days it has been in these garages. This is also a safety hazard."
+    "summary": "The contact owns a 2019 Hyundai Tucson. The contact stated while the contact's husband was driving, the contact noticed an abnormal loud sound. In addition, the contact noticed smoke coming from the front of the vehicle. No warning lights were illuminated. The contact noticed an unusual odor in the interior of the vehicle. The contact's husband drove the vehicle to the shoulder of the road. The contact stated that the engine seized. In addition, the contact stated that the smoke and the unusual odor subsided. The vehicle was towed to the contact's residence. In addition, the contact stated that when the failure occurred, the contact's minor children were occupants of the vehicle. The contact stated that the minor children were frightened. The vehicle was not diagnosed or repaired by an independent mechanic or the dealer. The manufacturer was made aware of the failure. The contact was informed of an open recall associated with the contact's VIN, NHTSA Campaign Number: 20V543000 (Service Brakes, Hydraulic). In addition, the contact was informed that her contact information was not updated in the database. The failure mileage was approximately 49,400."
   },
   {
     "id": "11746098",
@@ -2284,36 +1734,6 @@
     "injuries": 0,
     "deaths": 0,
     "summary": "Front exhaust pipe bellows cracked, allowing exhaust gases including carbon monoxide to enter the passenger cabin. This is the same defect Subaru acknowledged in Service Program WUJ-95R (2015-2016 models) and Warranty Extension WI22-013 (2017-2018 Foresters). The failure pattern extends to 2019 model year vehicles and should be investigated for a recall expansion. This is a design flaw, consistent problem across multiple years, and a dangerous problem that needs to be addressed. My local Subaru dealer diagnosed and acknowledges the issue but won't cover it. Subaru of America won't cover the full cost--only 25%. Thank you for your help."
-  },
-  {
-    "id": "11723685",
-    "make": "Subaru",
-    "model": "Outback",
-    "year": 2019,
-    "components": [
-      "VISIBILITY/WIPER"
-    ],
-    "date": "03/11/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Windshield window crack without any reason couple month ago and it keep crack bigger"
-  },
-  {
-    "id": "11721704",
-    "make": "Subaru",
-    "model": "Outback",
-    "year": 2019,
-    "components": [
-      "ELECTRICAL SYSTEM"
-    ],
-    "date": "03/03/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "The contact owns a 2019 Subaru Outback. The contact stated that while driving at an undisclosed speed, the touch screen on the radio failed to properly operate. The screen was delaminated, causing unintended operation of the radio, distracting the driver. This failure caused the back over prevention to become inoperable, and the HVAC defroster options were inoperable. The touch screen and the functions were inoperable. The vehicle was taken to a dealer, where it was diagnosed with an electrical system failure. The vehicle was not repaired. The manufacturer was notified of the failure. The failure mileage was 119,000."
   },
   {
     "id": "11746267",
@@ -2379,36 +1799,6 @@
     "summary": "The contact owns a 2019 Ram 1500. The contact stated that while driving 45 MPH through a curve in the road, the steering wheel became difficult to control, and the vehicle lost power steering functionality. The steering wheel remained in the direction that the steering wheel was turned. There were no warning lights illuminated. The local dealer was contacted, but the vehicle was not diagnosed or repaired. The manufacturer was contacted and referred the contact to the NHTSA Hotline for assistance. The approximate failure mileage was 120,000."
   },
   {
-    "id": "11744097",
-    "make": "Ram",
-    "model": "1500",
-    "year": 2019,
-    "components": [
-      "AIR BAGS"
-    ],
-    "date": "06/15/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "Airbag switch in seat was partially faulty, depending on drivers weight.  Dealership pulled code and replaced the new battery with a new battery, then did the steering wheel clockspring, but the final outcome was the weight of the driver and the seat switch for the airbag.  The truck is currently in the shop waiting for the seat airbag switch.  I believe this to be a safety recall.  [XXX]  INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
-  },
-  {
-    "id": "11743639",
-    "make": "Ram",
-    "model": "1500",
-    "year": 2019,
-    "components": [
-      "POWER TRAIN"
-    ],
-    "date": "06/12/2026",
-    "crash": false,
-    "fire": false,
-    "injuries": 0,
-    "deaths": 0,
-    "summary": "While coming to a stop or slowing down, truck shifts into neutral on its own without driver input. Truck then makes you press brake and shift back to drive."
-  },
-  {
     "id": "11746005",
     "make": "GMC",
     "model": "Sierra 1500",
@@ -2471,33 +1861,1479 @@
     "summary": "On [XXX], my 2019 GMC Sierra 1500 Denali equipped with the 6.2L engine suffered a sudden loss of power while driving. The vehicle lost propulsion and could not continue operating normally.  The vehicle was taken to Orange Buick GMC in Orlando, Florida. The dealership advised that the engine is locked and unable to rotate manually, and that the engine requires replacement. The vehicle has approximately 126,000 miles.  This failure occurred while the vehicle was being driven and created a safety concern due to sudden loss of propulsion. A sudden engine lockup or loss of power could increase the risk of a crash, especially if it occurs in traffic, at highway speed, while turning, or while crossing an intersection.  There was no crash, fire, injury, or death. The vehicle remains at the dealership awaiting repair.  INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
   },
   {
-    "id": "11744534",
-    "make": "GMC",
-    "model": "Sierra 1500",
+    "id": "11713697",
+    "make": "Lexus",
+    "model": "RX 350",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "SERVICE BRAKES",
+      "FORWARD COLLISION AVOIDANCE"
+    ],
+    "date": "01/27/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My Lexus 2019 RX450H is making a squishing squeaking brake actuator noise when pressing the brake pedal.  I located well publicized TSB\u2019s documenting the awareness by Toyota/Lexus of the problem. (TSB:  MC-10245447-9999) Brake Squawk/Knock Noise. I checked with my local Lexus dealership to see if my vehicle had been repaired.  It had Not!.  Temecula Valley Lexus, 42081 Dealer Drive, Temecula, Ca. 92591. (951)365-6834. I scheduled an appointment for repair on 1/26/26.  They rejected making the repair because my vehicle DID NOT have any codes in the computer OR any lights on the dash. They did in fact, confirm the brake actuator noise.  I reject that concept because WHO could know ahead of time if a part experiences a (1st time) total failure without throwing codes and turning on dashboard lights?   As I read the symptoms of severe problems experienced in a higher level of failure by brake actuators, I would not want to have to experience a crash accident in which the actuator would operate correctly in a hard stop condition or have ABS failure and brake lockup occur.  Personal harm and property damage should not have to be an indicator if I can have the manufacturer cover a repair.  Please advise What I should do to increase the response in the direction of getting this known problem repaired.  Sincerely,  [XXX]  [XXX]  [XXX]  INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11705427",
+    "make": "Lexus",
+    "model": "RX 350",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "FORWARD COLLISION AVOIDANCE"
+    ],
+    "date": "12/16/2025",
+    "crash": true,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I was dropping my husband off at cardiac rehab. I was stopped and had my foot on the brake suddenly the car launched forward into the back of a car parked in front of me. The other driver got out of the car and said he wasn't hurt. We were able to drive the car home stopping 3 times to pull pieces of the car off that were dragging on the road. We took the car to a mechanic at the end of the road. He scanned the codes for us. Pre-collision 2 ClAll ; Intuitive Park Assist ClAll Front Sensor Comm. Circuit ; Front Recognition Camera ClAll ; Lane Keeping Assist ClAll Front Radar Sensor Incorrect Axial Gap ; BCM B124B Light Source Sensor Open/Short. The insurance adjustor totaled the car and they picked it up today. No warning lights showed up on the dash until after the accident."
+  },
+  {
+    "id": "11700243",
+    "make": "Lexus",
+    "model": "RX 350",
+    "year": 2019,
+    "components": [
+      "AIR BAGS"
+    ],
+    "date": "11/19/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I am reporting a safety-related violation. The dealership told me the vehicle had only a minor accident with no airbag deployment. This was false. Carfax shows the vehicle actually had a major accident with airbag deployment, which they failed to disclose.  This misrepresentation affects the safety system, airbag sensors, and the ability of the airbags to function properly in future collisions. This nondisclosure is a serious safety concern and fraudulent practice. I am requesting NHTSA to review this as potential safety fraud involving failure to disclose a prior airbag deployment."
+  },
+  {
+    "id": "11696538",
+    "make": "Lexus",
+    "model": "RX 350",
+    "year": 2019,
+    "components": [
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "10/30/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "While driving roof glass just exploded. Sounded like gun being fired. No one was around us and glass blew outward. Almost had an accident from the explosion."
+  },
+  {
+    "id": "11675800",
+    "make": "Lexus",
+    "model": "ES 350",
+    "year": 2019,
+    "components": [
+      "FUEL/PROPULSION SYSTEM"
+    ],
+    "date": "07/24/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Vehicle hesitates when gas pedal pressed; creating hazard to cross intersections, merging into traffic.  In order to have car respond, hard press on gas pedal required, which creates another dangerous situation of unexpected leap!  While no recalls are shown, 2 reports [XXX]  are shown on NHTSA recall site.  Owners of this vehicle report same problem for all model years, and indicate dealers cannot fix/do not fix. INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11646961",
+    "make": "Lexus",
+    "model": "ES 350",
     "year": 2019,
     "components": [
       "ENGINE"
+    ],
+    "date": "03/07/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Driving car experienced a loud thump. Lost all engine power. Pulled to side of road. Had a hybrid system unavailable warning. Called a tow. Checked oil level to find it below the low mark. Car left a huge puddle of oil when loaded. Got to dealership. They found a hole in the engine block. Engine seized. Looms like it was the rod for the first cylinder.  This issue sounds like what was the 2020 model years recall.  My car had 128k on it all maintenance was completed on time, at the dealership. I regularly check oil level, and it was within normal range."
+  },
+  {
+    "id": "11618299",
+    "make": "Lexus",
+    "model": "ES 350",
+    "year": 2019,
+    "components": [
+      "EXTERIOR LIGHTING"
+    ],
+    "date": "10/06/2024",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I bought a 2019 Lexus ES350 F Sport in October 2023 with 41,000 miles. Almost a year later to the day I went to a touchless car wash and now have excessive condensation in both headlights. Lexus shows these lights at $2500 a piece, plus labor to install. With modest investigating for a remedy I see I\u2019m not alone in this predicament. Due to high cost of replacement I believe this warrants looking into whether it should be a recall or at least a safety bulletin as moisture in an electric environment will quickly become a major issue."
+  },
+  {
+    "id": "11579388",
+    "make": "Lexus",
+    "model": "ES 350",
+    "year": 2019,
+    "components": [
+      "STRUCTURE"
+    ],
+    "date": "03/25/2024",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I was stop not driving"
+  },
+  {
+    "id": "11741091",
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2019,
+    "components": [
+      "AIR BAGS",
+      "SERVICE BRAKES",
+      "FORWARD COLLISION AVOIDANCE"
+    ],
+    "date": "05/31/2026",
+    "crash": true,
+    "fire": false,
+    "injuries": 1,
+    "deaths": 0,
+    "summary": "While traveling at highway speeds with adaptive cruise control safety systems engaged, the vehicle failed to detect a hazard immediately ahead in its lane. The Forward Collision Warning failed to alert the driver, and the Automatic Emergency Braking (AEB) failed to initiate automated emergency deceleration. Manual emergency braking was attempted by the driver in the final milliseconds, but the vehicle's braking system failed to sufficiently decelerate the vehicle, resulting in a high-energy frontal collision. Despite severe structural deformation concentrated entirely on the front fascia and crumple zones, the Supplemental Restraint System (SRS) completely failed and no airbags deployed. The driver sustained injuries to the neck, back, and ribs. The vehicle has been declared a total loss by insurance and is available for inspection at a salvage facility. The manufacturer was notified over a month ago (Case #21986205) but has failed to pull the Event Data Recorder (EDR) telemetry or provide an engineering review timeline. No prior warning lamps or system malfunction messages were present before the incident."
+  },
+  {
+    "id": "11738092",
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "05/15/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Backgroud:  Recall #26V216 recalls classes of Mercedes vehicles for U-Joint failures.  My vehicle - 2019 E460 4Matic Wagon is included in this class under the notice (Vehicle #6 [XXX] )  Issue: I took my vehicle to the dealer on Monday, 5/11 because of a hard knocking sound when I de/accelerate.  Dealer inspected and noted that my Ujoint has failed. The estimate is $8100 for repairs.  MB and dealer have both indicated that my VIN is not covered by the recall but have not explained why.  My car is currently unsafe to drive and therefore non-operational. I have not approved repairs because of the substantial cost and resolution of whether covered by Recall warranty.  INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11732369",
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2019,
+    "components": [
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "04/20/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 1,
+    "deaths": 0,
+    "summary": "As I was entering the vehicle and getting into my seat, my right ring finger became caught in the passenger-side window as it was closing. The window failed to stop or reverse upon encountering my finger, which is a critical safety function designed to prevent exactly this type of injury. Instead, the window continued to close with full force, crushing my finger and holding it trapped. The pressure was so severe that it ripped my nail and nail bed out and caused a displaced fracture."
+  },
+  {
+    "id": "11726787",
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "ENGINE",
+      "FUEL/PROPULSION SYSTEM"
+    ],
+    "date": "03/24/2026",
+    "crash": false,
+    "fire": true,
+    "injuries": 1,
+    "deaths": 0,
+    "summary": "I parked the vehicle in a parking lot. I walked away and it immediately started smoking. Shortly after that, flames appeared coming from the hood. Shortly after that, the entire vehicle was engulfed in flames."
+  },
+  {
+    "id": "11742426",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2019,
+    "components": [
+      "SEAT BELTS"
+    ],
+    "date": "06/06/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My 2019 Mercedes-Benz C300 Coupe\u2019s front driver seat belt will not fully retract to its stowed position. This creates THREE safety hazards: 1.Passenger Trip Hazard: The extended belt causes difficulty when exiting from the rear seat \u2014 passengers can easily trip over the non-retracting belt 2.Door Damage Risk: Belt gets stuck in the door, preventing proper closure and potentially damaging the door or wearing down the seat belt webbing 3.Safety System Failure: A belt that doesn\u2019t retract properly may not fully restrain occupants in a crash, compromising the seat belt safety system Dealer Response: My dealership told me this is \u201cout of pocket\u201d repair cost, even though the identical retraction issue exists in 2017\u20132021 C-Class Cabriolet (A205 platform) vehicles that ARE covered under Safety Recall 21V-032000. Mercedes fixed this with damping foam adjustment in the recalled Cabriolets but is refusing the same repair on C300 Coupes. Defect Pattern: This is the same design flaw in the front seat belt retractor geometry that caused the recall. The distance between the retractor and damping foam within the B-pillar doesn\u2019t meet production specifications. Safety Risk: If occupants find the belt inconvenient due to poor retraction, they may not wear it \u2014 increasing crash injury risk. No advance warning of retractor failure exists. Request: NHTSA should investigate whether the C300 Coupe should be included in this recall or if a separate recall is needed for the same defect. Vehicle Info: 2019 Mercedes-Benz C300 Coupe"
+  },
+  {
+    "id": "11738906",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "05/19/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Upon starting engine while parked the engine vibrated roughly then stopped. Engine light and coolant light illuminated but shut off. Vehicle proceeded as normal, however, as I proceeded for the highway about 1 - 1/2 blocks and approximately 1,200 feet before approaching highway the vehicle 1200 abruptly lost acceleration; engine light and coolant light illuminated again, then engine abruptly shut down in the middle of the road causing a severe safety hazard. Putting myself and others at risk. There were no symptoms of the problems prior to the failure. Coolant leakage; sluggish engine/acceleration; jerking acceleration; coolant light illumination steady."
+  },
+  {
+    "id": "11729410",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2019,
+    "components": [
+      "STRUCTURE"
+    ],
+    "date": "04/06/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The contact owns a 2019 Mercedes-Benz C300. The contact stated that while driving and attempting to close the sunroof, the sunroof made an abnormal popping sound. The contact pulled over and attempted to close the sunroof, but the sunroof failed to close. The contact related the failure to NHTSA Campaign Number: 21V197000 (Structure); however, the VIN was not associated with the recall. The vehicle was not diagnosed or repaired by an independent mechanic or the dealer. The manufacturer was not contacted. The failure mileage was approximately 53,000."
+  },
+  {
+    "id": "11716768",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "02/09/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Odometer Fraud. The contact purchased a 2019 Mercedes-Benz C300. The contact stated that after purchasing the vehicle, it was discovered that there was a mileage discrepancy. The vehicle was a dealer sale. The contact stated that at the time of purchase, the odometer reading was approximately 54,000 miles. At the time of registration, the mileage was approximately 54,000 miles, and the same mileage was also reflected on the Carfax report. The contact stated that the mileage discrepancy was later discovered through a public report with the Federal Trade Commission (FTC); however, the mileage was not provided. The contact stated that the mileage discrepancy occurred after two OTA\u2019s were performed on the vehicle. The contact stated that during the OTA\u2019s on the vehicle, the mileage was changed. The contact stated that several documents with the mileage discrepancies were listed with the FTC. The contact also reported the discrepancy to the Department of Motor Vehicles."
+  },
+  {
+    "id": "11737293",
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "05/12/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Please update recall repair status to repaired for this VIN (dealer repair invoice attached)"
+  },
+  {
+    "id": "11726631",
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "03/24/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The contact owns a 2019 BMW 330I. The contact received notification of NHTSA Campaign Number: 25V636000 (Electrical System); however, the part to do the recall repair was not yet available. The local dealer was contacted, but the vehicle had not been diagnosed or repaired. The contact stated that the manufacturer had exceeded a reasonable amount of time for the recall repair. The manufacturer was not made aware of the issue. The contact stated that while driving up to a red light, the vehicle became inoperable. The \"Call Roadside Assistance\", \"Starter System Failure\" and \"Engine Could Not Start\" messages were displayed. The vehicle was able to restart; however, upon arriving to the residence, the vehicle became inoperable. The failure mileage was 81,652."
+  },
+  {
+    "id": "11720473",
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "02/25/2026",
+    "crash": false,
+    "fire": true,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Description of the Problem: \u2022Component/system that failed: The engine starter, which is subject to an open recall issued September 23, 2025. The starter was not replaced during a service visit. The vehicle no longer exists due to the fire, but the VIN and service records are available for inspection. \u2022Safety risk: The starter malfunction caused the vehicle to catch fire while parked, creating a serious safety risk to myself, my child, and others nearby. \u2022Problem reproduction/confirmation: The fire and defect were confirmed by BMW\u2019s inspection as originating from the starter irregularity tied to the recall. \u2022Inspections: The vehicle was inspected by BMW North America\u2019s engineering team after the fire, and insurance representatives confirmed the total loss. \u2022Warning signs prior to failure: There were no warning lamps, messages, or symptoms indicating the starter defect before the fire.  Additional context: The vehicle was serviced at an authorized BMW dealership on December 3, 2025. I was not informed of the recall, and the starter was not replaced. The vehicle caught fire on December 19, 2025, resulting in a total loss. While my insurance resolved the ACV, this incident was caused by BMW\u2019s recall-related defect and procedural failure. I have escalated this matter to BMW North America and am requesting a resolution that restores me to a comparable position (replacement vehicle or financial support).  Official confirmation: BMW North America confirmed in a confidential letter that the fire originated from the starter defect tied to the open recall. This letter is available for review upon request."
+  },
+  {
+    "id": "11720158",
+    "make": "BMW",
+    "model": "3 Series",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "02/24/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Vehicle shudders under acceleration no warning lights or errors . Changed transfer case oil and same problem continues. No recall from manufacturer for issu"
+  },
+  {
+    "id": "11745369",
+    "make": "BMW",
+    "model": "X5",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "06/20/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Oil pump with plastic parts failing"
+  },
+  {
+    "id": "11741535",
+    "make": "BMW",
+    "model": "X5",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "06/02/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The engine oil pump failed internally. The vehicle is equipped with a factory-installed variable-displacement oil pump that utilizes an internal thermoplastic adjusting ring. Due to heat cycles and mechanical stress, this plastic component degrades, becomes brittle, and catastrophically shatters or cracks.The first symptom appeared when the vehicle became entirely unable to complete an electronic engine oil level measurement via the iDrive system, consistently freezing and aborting the test at approximately 15% to 20%. This defect directly compromises road safety. A sudden drop in oil pressure causes severe internal engine friction, leading to immediate engine seizure or a total loss of motive power without adequate warning. Experiencing a sudden engine stall while driving at highway speeds places the driver, passengers, and surrounding motorists at extreme risk of a high-speed rear-end collision. Furthermore, a total engine shutdown disables power-assist steering and braking, making the vehicle incredibly difficult to control and maneuver to safety. Catastrophic mechanical failure from oil starvation also presents a severe under-hood fire hazard if oil leaks onto hot exhaust components.The problem has been officially reproduced and confirmed. The vehicle was brought to Bavarian Werkstatte, where certified technicians diagnosed the issue as an internal structural failure of the variable-displacement oil pump's plastic adjusting ring. The component is currently available for inspection upon request. BMW is fully aware of this defective design. They updated this exact component in mid-2020 to an all-metal oil pump to prevent plastic fragmentation. Despite knowing that the 2019 thermoplastic rings degrade, become brittle, and shatter under normal operating heat cycles, the manufacturer has failed to issue a safety recall in the United States, leaving drivers exposed to dangerous sudden engine failure."
+  },
+  {
+    "id": "11740999",
+    "make": "BMW",
+    "model": "X5",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "05/30/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I am writing regarding my BMW X5 xDrive40i, model year 2019, engine code B58TU. The vehicle has been serviced at authorized BMW dealerships.   For this engine type B58TU especially years 2018-2021, repeated oil pump failures have been reported due to a known design issue: an internal plastic component can develop cracks, potentially leading to a complete oil pump failure. BMW silently replaced the oil pump with the updated version by keeping the same part number but featuring metal internals.  Once there is a fail on the oil pumps with plastic components, engine loses access to get the oil an immediate stop is needed.   This creates a huge safety concern cause: 1) If you are on a highway at highway speeds it might not be possible to move to the shoulder safely with no engine power or even worse: with a locked engine.   2) If there is a maintenance on the road with no shoulder access or if this is a bridge where there is no shoulder, it creates a huge risk to safely move the vehicle. An unavoidable sudden stop can create a huge accident risk for everybody.   Of course any car can get a engine problem on those occasions but this is a very known and very common problem for BMW cars equipped with B58TU engine especially years 2018-2021. BMW is also definitely aware of that and this safety concern cause they updated the design silently.   But, when contacted with BMW NA, they refused to help, refused to admit there is a design problem. They also refused to change the oil pump with the updated oil pump even with my proposal of goodwill pricing."
+  },
+  {
+    "id": "11741002",
+    "make": "BMW",
+    "model": "X5",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "05/30/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I am writing regarding my BMW X5 xDrive40i, model year 2019.   For this G05 model coded cars, repeated transfer case failures have been reported due to a known issue: on the factory they put a wrong oil in it and then published a Technical Bulletin about it as if they are not the ones responsible for that.  The problem is, due to that mistake, transfer cases of cars manufactured between 2018-2020 becomes dead in time. Cars shudders, jerking at low speeds, cannot deliver the power to the ground effectively due to intermittent and very disturbing, powerful shudders.  This creates a huge safety concern cause:  1) if you are on an intersection the car might not join safely to the traffic in a perceived timing due to the shudders, intermittent power delivery.  2) If you are on a driveway and moving to the street the car might not move to the street for the perceived timing or once moved cannot move safely to join the traffic.  3) If there is a failure on the transfer case and if there is a sudden stop is needed. On the road with no shoulder access or if this is a bridge where there is no shoulder, it creates a huge risk to safely move the vehicle. An unavoidable sudden stop can create a huge accident risk for everybody.   This is a very known and very common problem for BMW cars equipped with B58TU engine especially years 2018-2020. BMW is also definitely aware of that and this safety concern but instead of fixing it they moved away their responsibility as if they are not the ones made the mistake.   But, when contacted with BMW NA, they refused to help."
+  },
+  {
+    "id": "11737448",
+    "make": "Audi",
+    "model": "Q5",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "05/12/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "2019 Audi q5 drive system malfunction/start stop malfunction. Error code will come on randomly in traffic and when you try to put your foot on the gas it hesitates and you need to push harder on the gas. Car will also lose acceleration power and take longer to reach desired speed. Drive system malfunction light will come on as well as an error stating start/stop system malfunction. Have had multiple sensors and battery replaced with only temporary results. Start stop malfunction will come on randomly at any time and then go away for a certain amount of time and come back again. This malfunction is constantly going on and off and is sometimes dangerous because you don\u2019t know when it will happen, if it does happen you don\u2019t know if you need to press harder on the gas, or if you do accelerate you don\u2019t know if you\u2019re damaging your engine. After multiple fixes at Audi dealership and other repair shops, them attempting to address this issue has done nothing for the car leaving me to believe this could be a fault. This issue has been going on for at least 10 months with multiple dealer visits attempting to address this issue."
+  },
+  {
+    "id": "11733149",
+    "make": "Audi",
+    "model": "Q5",
+    "year": 2019,
+    "components": [
+      "SEAT BELTS",
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "04/22/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My seat belt warning has been going off intermittently. I received an extended warranty from Audi Subject: Seat Occupancy Detection System Limited Warranty Extension extending the warranty for my car. However, when I took it to the dealer they could not replicate the sound. I provided them a video of it happening. They said it was not showing as a fault on the computer and therefore refused to repair the seat under the warranty extension. This is a safety issue and it's recognized as one by Audi. This sensor is obviously malfunctioning for a lot of people or they would not have extended the warranty. Regardless of being able to \"replicate\" the issue, they should replace the sensor since it's a known issue and they extended the warranty on it."
+  },
+  {
+    "id": "11732112",
+    "make": "Audi",
+    "model": "Q5",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "04/18/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "A failed (frozen) Turbocharger Wastegate Actuator. An engine warning light came on and engine had less power. It had to be replaced. There was a settled law suit for the same issue covering this item in previous vehicles settled in 2025."
+  },
+  {
+    "id": "11731739",
+    "make": "Audi",
+    "model": "Q5",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "04/16/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My 2019 Audi Q5 has 23,300 city-driven odometer miles. The vehicle has been serviced and maintained per the Audi Service Manual, based on months in service, not accumulated mileage. The vehicle has been garaged both at home and at work. The vehicle has never been driven off-road. When driving, an \u201cAll-wheel Drive: malfunction! You may continue driving. Please contact Service\u201d warning message sounded and appeared on the instrument panel. The malfunction was diagnosed by Audi Honolulu and another Audi repair shop as a Shift Fork Unit issue and/or Quattro differential failure, which needs to be replaced. Audi has has a Technical Service Bulletin for a similar problem for the Q5. Audi Honolulu and Audi America refuses to provide a goodwill repair citing the age of the Q5. While the vehicle is 7 years old, a Shift Fork or Quattro Differential should not fail at 23,300 miles, regardless of age. I have been told by both repair facilities that the Shift Fork Unit or Quattro Differential could suddenly fully fail and seize causing a sudden loss of forward movement. I am afraid that if this happens at freeway speeds coming to a sudden stop could cause serious injury and if a vehicle behind mine slammed into me at freeway speeds a catastrophic or deadly accident could occur, especially at night or in inclement weather conditions."
+  },
+  {
+    "id": "11745683",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "06/22/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The AFM lifters on 1,7,4,6 cylinders go out with no warning causing shuttering and misfires. Scary! This is the second Escalade with the problem and the 2019 engine has occurred twice in 6 months. I have inserted a lockout device to prevent the vehicle from going into 4 cylinder mode since the last episode (6 months ago) and it still failed another AFM lifter. GM said they will fix the 3rd one under warranty but no guarantees it won't fail again. Who knows where I might be? I am without a vehicle for 2 to 3 weeks at a time. GM will not remove the system and replace the cam and lifters (even if I purchase the parts). POOR service also."
+  },
+  {
+    "id": "11737067",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "05/11/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I am filing a safety complaint regarding my Cadillac Escalade due to a transmission/valve body failure occurring at approximately 77,100 miles.  The vehicle began experiencing transmission-related issues including harsh shifting, hesitation, abnormal operation, and unsafe drivability concerns. The vehicle was diagnosed by the repair facility as requiring a transmission valve body replacement.  I was then informed that the required valve body is currently on national backorder with General Motors, and my vehicle has now been out of service for over two months with no estimated repair completion date available.  After researching the issue, I discovered numerous other GM owners reporting similar transmission valve body failures involving Cadillac Escalades and other GM full-size SUVs and trucks equipped with similar transmissions. The widespread nature of the failures and the nationwide parts shortage raise serious concerns regarding reliability and potential safety defects.  This issue creates a significant safety concern because transmission failure can affect acceleration, shifting, drivability, and the vehicle\u2019s ability to operate safely in traffic conditions.  I am requesting that NHTSA investigate these transmission valve body failures and the related nationwide parts shortage affecting GM vehicles."
+  },
+  {
+    "id": "11734768",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "04/30/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "MY VEHICLE  LOST POWER SUDDENLY I ALMOST GOT HIT FROM BEHIND LUCKILY I WAS ABLE TO AVOID A ACCIDENT TOWED TO MECANIC TOLD ME COMMON ISSUE WITH THIS ENGINE MY ENGINE NEEDS REPLACMENT"
+  },
+  {
+    "id": "11720769",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "02/26/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Loud engine knocking heard after starting vehicle at grocery store, vehicle was driven 25 miles to get to store so was 'warm', check engine lite on dashboard came on during knocking, was able to drive vehicle to dealership for diagnosis (approximately 3.1 miles), dealership diagnosis after engine teardown was roller lifter failure causing damaged camshaft, instead of repairing defective parts in this engine opted for new engine replacement, cost approximately $15,000 for repairs and labor out of pocket, vehicle is 2019 Escalade, less than 110,000 miles on engine, purchased in 2022 with approximately 9000 odometer miles from cadillac dealership, professionally maintained at Cadillac dealership since purchase.   GMC has a NHTSA recall (EA25007) for 6.2L V8 engines (which this vehicle particular has), for the years 2021-2024.  Model years 2019-2021 with these type of engines has an active investigation (no recall yet) for the same issue of 'loss of motive power due to engine failure'.  We were fortunate that the failure occurred in town at low speed driving and not on the freeway with truck traffic at 75 mph, a sudden loss of power due to engine failure would greatly have increased the risk of a crash."
+  },
+  {
+    "id": "11740143",
+    "make": "Cadillac",
+    "model": "XT5",
+    "year": 2019,
+    "components": [
+      "STEERING"
+    ],
+    "date": "05/26/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The computer or electrical box to steer keeps shorting out and the vehicle us unable to turn."
+  },
+  {
+    "id": "11723846",
+    "make": "Cadillac",
+    "model": "XT5",
+    "year": 2019,
+    "components": [
+      "WHEELS"
+    ],
+    "date": "03/12/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Went to Genesis Cadillac for oil change and they recommended the replacement of both my rear toe links.  As stated on their service bill Caused by loose rear toe links.  GM has been selectively recalling certain makes, models and model years recalling toe link for replacement.  Most recently March 10, 2026 Buick Regals 2012 and 2013.  Seems GM is aware of rear toe link issues but doesnt want to have a mass recall.  Selects vehicles that are low quantity still driven.   Everyone else needs to pay for defective rear toe links  Even my brothers 2020 XT5 was recommended to replace rear toe links on his vehicle when he went for an oil change."
+  },
+  {
+    "id": "11709970",
+    "make": "Cadillac",
+    "model": "XT5",
+    "year": 2019,
+    "components": [
+      "ENGINE AND ENGINE COOLING",
+      "ENGINE"
+    ],
+    "date": "01/09/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The contact owns a 2019 Cadillac XT5. The contact stated that while leaving the driveway, there was an abnormal sound coming from the vehicle. The contact stated that while driving at 65 MPH, there was an abnormally loud squeaking sound coming from the vehicle. The check engine warning light was illuminated. The contact thought that the catalytic converter had been stolen.  The vehicle was taken to an independent mechanic who determined that the catalytic converter was severed at the connection point and cracked, and removed. The contact stated that coils were damaged, and the thermostat housing was cracked. The vehicle was repaired, but the failure recurred. The local dealer was contacted, who determined that the catalytic converter had been replaced, but the failure persisted. The dealer informed the contact that the parts were on backorder. The manufacturer was not contacted. The failure mileage was approximately 100,000. The VIN was not available."
+  },
+  {
+    "id": "11709474",
+    "make": "Cadillac",
+    "model": "XT5",
+    "year": 2019,
+    "components": [
+      "STEERING"
+    ],
+    "date": "01/07/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "We got the message that our steering may be impacted and then our temperature gauge wasn\u2019t working nor the stop/start feature.  Trip to service dealer resulted in a $1,186.14 repair for the replacement of the thermostat.  This car only has 37,269 miles. We were told by service tech this is a common issue in GM models and this year of car.  This was a financial hardship on us and our well maintained, and rarely used, vehicle.  How can GM know this is an issue and not offer remedy thru a recall?"
+  },
+  {
+    "id": "11722901",
+    "make": "Dodge",
+    "model": "Charger",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "03/09/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Vehicle: Dodge Charger GT Recall: SABIC Side Airbag Inflator Replacement Dealer: ourisman chrysler dodge jeep ram of clarksville, maryland Date of Recall Repair: feb 27, 2026  Complaint Description: After the dealer performed the SABIC inflator recall on my Dodge Charger GT, the vehicle immediately developed new electrical failures that were not present before the repair. As soon as I picked up the car, the interior dome/map lights stopped working, and the right\u2011side exterior front lighting also failed. These failures occurred directly after the recall repair, indicating the dealer likely damaged or disconnected wiring inside the A\u2011pillar/B\u2011pillar or roof harness while accessing the inflator.  This creates a safety hazard, especially at night, because the right exterior lighting is inoperative and interior lighting does not function. The dealer has not acknowledged responsibility, and the vehicle was returned to me in an unsafe condition after a federally mandated recall repair."
+  },
+  {
+    "id": "11713844",
+    "make": "Dodge",
+    "model": "Charger",
+    "year": 2019,
+    "components": [
+      "STRUCTURE"
+    ],
+    "date": "01/28/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Campaign 11701038 - Warping of door panels and driving shaft area.  Worried this will affect airbag deployment."
+  },
+  {
+    "id": "11708098",
+    "make": "Dodge",
+    "model": "Charger",
+    "year": 2019,
+    "components": [
+      "FUEL/PROPULSION SYSTEM"
+    ],
+    "date": "12/31/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "- Crack at base of gas tank where fill tube attached causing fuel vapors around the car and a possible fuel leak.   - Yes by independent service center.   -White residue was built up around the crack in the fill tube.  Independent service center confirmed the cause as - \"Found plastic fuel tank leaking around the filler nipple that is plastic welded in.  Also, the auxiliary pump has a dark spot like it may be sleeping as well.  Need to replace the fuel tank and would recommend replacing the fuel pumps as a precaution.\" Final  repair charge was $4437.03.  Independent service center replace fuel tank and fuel pumps with Mopar parts from the closest Dodge dealer.  In review with the service center they stated that fuel was dripping onto the heat shield above the exhaust and could have caused a fire.  - No other agencies inspected the issue or repair. Attached a copy of the invoice and two pictures of the worn/cracked fuel tank.  - No warning lights, just the smell of gasoline in my garage about 5 weeks ago.  The smell would be the strongest when the tank was full but when below half tank the smell was not present."
+  },
+  {
+    "id": "11707706",
+    "make": "Dodge",
+    "model": "Charger",
+    "year": 2019,
+    "components": [
+      "STEERING",
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "12/30/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Over 2 years ago I took my vehicle in for an oil change and asked them to drive it and see why it sometimes pulls the steering when going around a curve to the left.  they drove it and said it never did pull.  Since then, it now pulls to the right when going around curves to the right also.  It is doing it more frequently and I am in fear that it will either cause me to go off the road or hit someone when it all of a sudden jerks, like it is catching on something in the tire or something.  I wouldn't even let my grandson drive it when he got his learners permit.  I have since then decided to look for a safer vehicle and will be trading it since no one can figure out the issue.  It jerks hard all of a sudden and you have to make sure you are holding the steering wheel tight.  I am reporting to hopefully prevent an accident."
+  },
+  {
+    "id": "11744213",
+    "make": "Dodge",
+    "model": "Durango",
+    "year": 2019,
+    "components": [
+      "AIR BAGS"
+    ],
+    "date": "06/15/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Headrest Explosion in my driveway parked.  Its confirmed by my dealer and its in their possession while I have a rental.  No accident had occurred and dealer inspected and no accident had been detected.  No indication that this would have happened previously.  Im in fear of my safety and have 2 special needs children that rides in my vehicle regularly.  The dealership is wanting for me the client to pay $1500 and refuse to comply with \"good faith\".  My agent stated they would try to do on \"goodfaith\" but days later stated I have to pay regardless of the company malfunction.  This could've happened while driving with me or my children.   Im just glad that it happened while parked.  It was stated to me if this doesnt get done or rather replaced this can be a safety issue.  Please if you may share my formal complaint with Dodge or whomever.  I have filed a formal complaint as well with Dodge and it has been escalated to case management with a case #."
+  },
+  {
+    "id": "11739840",
+    "make": "Dodge",
+    "model": "Durango",
+    "year": 2019,
+    "components": [
+      "EXTERIOR LIGHTING"
+    ],
+    "date": "05/24/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The rear taligate track light for brakes is not working. Some of the lights are out when braking"
+  },
+  {
+    "id": "11739296",
+    "make": "Dodge",
+    "model": "Durango",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN",
+      "ELECTRICAL SYSTEM",
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "05/21/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "my vehicle has had a recall since November 2024 For the HCU/ABS module that falsely reads pressure in the primary circuit may illuminate the brake lights (up to 4.5 mph), disable the ABS and Electronic Stability Control (ESC), and allow the vehicle to start and shift out of park without the brake pedal being depressed. Well back in November 2025 i had to pay for towing twice and have it in service because the ABS Stop and Start module went out and i had to repalce the battery out of pocket and then not even 7 months to the date i went out and tried to get in my durango and it wouldnt start so i replace the battery and the ABS light came back on and the vehcle shut down and i couldnt get it started back."
+  },
+  {
+    "id": "11736465",
+    "make": "Dodge",
+    "model": "Durango",
+    "year": 2019,
+    "components": [
+      "SUSPENSION",
+      "POWER TRAIN",
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "05/08/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My 2019 Dodge Durango R/T began experiencing drivetrain and warning system issues after collision/body repairs were completed by a repair facility. The original repair work involved suspension/body-related repairs and did not originally include documented transfer case or internal drivetrain damage.  At the time I picked the vehicle up from the repair facility, the tire pressure monitoring system warning light was already illuminated. I notified the repair facility and was told to drive the vehicle for approximately 10 minutes and the warning would clear itself. I have video documentation related to this interaction.  After the repairs, additional problems began appearing including:  * Service AWD warning * Traction control warning indicators * Ongoing drivetrain concerns * Diagnosis involving transfer case/internal damage and burnt fluid  The vehicle was later reported to have transfer case clutch failure and internal drivetrain-related issues despite the original repair scope not documenting drivetrain damage.  My concern is that the post-repair warnings and drivetrain symptoms may indicate improper inspection, repair, reassembly, fluid servicing, calibration, or unresolved damage related to the repair process.  The vehicle has been inspected by the repair facility and diagnostic information was later provided identifying drivetrain/transfer case issues."
+  },
+  {
+    "id": "11745469",
+    "make": "Dodge",
+    "model": "Challenger",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "ENGINE"
+    ],
+    "date": "06/21/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "the car shot up in RPM would not slow down spinning tires while holding the brake hard. had to go in neutral and kill the motor, when restarted it would continue to do the same thing"
+  },
+  {
+    "id": "11743380",
+    "make": "Dodge",
+    "model": "Challenger",
+    "year": 2019,
+    "components": [
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "06/11/2026",
+    "crash": false,
+    "fire": true,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My vehicle was parked in the driveway with a car cover over it and it caught on fire. The fire appeared to have started by the driver side headlight area and quickly ignited and burnt the whole front end of the car. The fire department showed up to put the fire out and they did not see any foul play. Surveillance camera shows the car catching on fire on it own without anyone near it. The last time it was driven it was a week ago. No after market parts in the car either, it\u2019s all stock with very low miles or 12K."
+  },
+  {
+    "id": "11705489",
+    "make": "Dodge",
+    "model": "Challenger",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "12/17/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The factory-installed Uconnect infotainment system in my 2019 Dodge Challenger intermittently malfunctions by remaining stuck on the rearview camera display after the vehicle is shifted out of reverse and into drive or park. The rearview camera image does not disengage as designed and continues to display randomly during normal forward driving.  This appears to be a failure of the Uconnect radio/software system rather than the camera itself. The issue occurs unpredictably and has happened multiple times without warning. Restarting the vehicle is sometimes required to restore normal screen function.  This malfunction creates a safety hazard because the display obstructs access to navigation, climate controls, and other critical vehicle information while driving forward, causing driver distraction and reduced situational awareness. Backup cameras are federally mandated safety equipment, and failure of the system to disengage properly interferes with safe vehicle operation.  Additionally, I am medically light-sensitive due to chronic migraines. When the rearview camera display remains active unexpectedly, the bright and high-contrast screen significantly worsens my symptoms, increasing pain, visual discomfort, and distraction while driving. This exacerbates the safety risk and makes the malfunction an extreme concern for me during vehicle operation.  No warning lights or messages appear prior to or during the malfunction. The problem has not yet been repaired. The vehicle and system remain available for inspection upon request. This failure mode matches known Dodge/Stellantis rearview camera and Uconnect software defects reported on similar model-year vehicles, although my VIN is not currently included in an active recall."
+  },
+  {
+    "id": "11693663",
+    "make": "Dodge",
+    "model": "Challenger",
+    "year": 2019,
+    "components": [
+      "BACK OVER PREVENTION"
+    ],
+    "date": "10/15/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The contact owns a 2019 Dodge Challenger. The contact stated that while reversing, the back-over prevention camera screen displayed a blue screen. In addition, the contact stated that while driving at an undisclosed speed, the back-over prevention camera was still enabled. The contact stated that the back-over prevention camera was displayed in real time. In addition, the contact stated that while driving forward, the image froze. The vehicle was taken to the dealer; however, the vehicle was not diagnosed. The contact referenced an unknown recall which had a similar failure description; however, the VIN was not associated with the recall. The contact was informed that there were no unrepaired recalls on the VIN. The manufacturer was not made aware of the failure. The failure mileage was approximately 50,000. The VIN was not provided."
+  },
+  {
+    "id": "11742778",
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "ENGINE"
+    ],
+    "date": "06/08/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The vehicle is a 2019 Volkswagen Jetta (VIN [XXX]). The primary malfunction appears to involve the vehicle's electrical and starting system. The vehicle intermittently displays a \"Starter System Faulty\" warning message and has shut off unexpectedly while driving, particularly during periods of hot weather. The exact failed component has not been definitively identified, but the symptoms are consistent with an ignition switch or electrical system defect. The vehicle is available for inspection upon request. This defect creates a serious safety risk because the vehicle can lose power and stall while in motion. The unexpected shutdown places the driver, passengers, and surrounding motorists at risk of a crash, especially when driving at higher speeds or in traffic. The problem has occurred multiple times and has persisted despite repair attempts. More than $1,000 has been spent on repairs related to this issue, but the problem has not been resolved. The vehicle has been inspected and repaired by service technicians; however, the underlying cause has not been successfully corrected. The vehicle has not been involved in a crash as a result of the defect, but the recurring stalling and loss of power present an ongoing safety concern. Volkswagen has been contacted regarding the issue, but assistance has not resolved the problem. Prior to the vehicle shutting off, warning messages including \"Starter System Faulty\" appeared on the dashboard. The issue is more likely to occur during hot weather conditions. These warning messages began appearing before the stalling events and continue to occur despite repair efforts. INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11741853",
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 2019,
+    "components": [
+      "TIRES"
+    ],
+    "date": "06/03/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I purchased a set of 4 Kumho tires on my vehicle on 9-24-24 when the vehicle had approximately 62,710 miles. On [XXX] with approximately 78,922 miles on the vehicle, I was informed that all the tires were cracked, they showed me in between the tread and they said they needed replacement. The tires had significantly less mileage than the advertised treadwear warranty. I maintained the vehicle according to manufacturer recommendations and had regular tire rotations and inspections performed. I am concerned that the tires experienced premature wear, which could affect vehicle safety and require replacement much sooner than expected. I contacted the tire manufacturer regarding the warranty, but my concerns have not been satisfactorily resolved-to date I have not heard from them, I emailed them on. 6-1-26 as well as the Volkswagen dealership in North Attleboro were the work was done. I am submitting this complaint because I believe the tire wear may indicate a product defect or issue affecting consumers. Tire size 205/60/R 16/92H They were the Solus TA \u2013 31 tire I have original receipts if needed. INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11738615",
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "05/18/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "When the outside temperature is hot the car starts and within a minute or two gives a \u2018start system faulty\u2019 warning and the dash and all electronics shut off. The engine continues to run for a period before also shutting down. This happened a number of time and seems to be a known issue with Jetta\u2019s but mine isn\u2019t part of the recall. Totally unsafe."
+  },
+  {
+    "id": "11738331",
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "ENGINE"
+    ],
+    "date": "05/16/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I have had my vehicle for 2 years. Every summer or when temperatures are high, my car shuts off while driving. I get the \u201cstarter system faulty. Please service vehicle\u201d message on the dashboard. I\u2019ve called VW about the previous recall and they\u2019ve said my vehicle is not car of it. I have a traditional key and these issues have happened more than a handful of times especially recently where I\u2019ll drive and my car shuts off completely."
+  },
+  {
+    "id": "11745696",
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2019,
+    "components": [
+      "SUSPENSION"
+    ],
+    "date": "06/22/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I am submitting this complaint regarding a safety defect on my 2019 Volkswagen Tiguan (VIN: [XXX]) consistent with NHTSA Safety Recall No. 19V188 (VW Recall Code 42J5) - premature fracture of rear axle coil springs. The vehicle exhibits uneven rear ride height indicative of coil spring fracture. The installed rear coil spring bears a manufacturer production label dated November 2018, which falls within the recalled production period (March 2017 \u2013 November 2018) identified in the recall documentation for 2018\u20132019 Volkswagen Tiguan vehicles. My VIN falls outside the published recall range. However, the recall documentation expressly acknowledges that affected VINs are non-sequential, as the defect originated in specific sub-supplier production batches. Springs from the same defective batch may have been installed in vehicles outside the published range. The failure mode - premature spring fracture due to substandard material or incorrect manufacturing process parameters - is identical to the defect in Recall 19V188, presenting the same safety risk: rear tire damage, loss of vehicle control, and potential crash. I request that NHTSA investigate whether Recall 19V188 adequately encompasses all affected vehicles and direct Volkswagen to review sub-supplier batch records to determine whether additional VINs warrant inclusion.  INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11745493",
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "06/21/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Oil separator valve went out which caused the upper timing cover gasket, Cambridge assembly seal, oil pan and seal to fail.   Could have caused the engine to fail whiling driving which could have resulted in an accident occurring.   Confirmed by dealership. No other inspection has been done on it.   Oil light came on whiling driving. I put in more oil. It goes in for regular oil changes and as not been noted prior to 6/19/26 that there was an issue with the vehicle."
+  },
+  {
+    "id": "11743875",
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "06/13/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "XXX, the emergency mode kept coming on, on the dash of my daughters 2019 Tiguan. I Took the tiguan to VW and they recommended replacement of gear selector unit. This is the car my daughter drives. She recently graduated and is now going to the military, leaving for bootcamp on 6/15. The part has been on backorder for 6 months (since Dec 2025), so she has only been able to drive on short trips and can not take her car to bootcamp or to her first duty station in [XXX]. She is essentially carless due to this issue. We've been waiting on a part of over 6 months. The car is not safe to drive as it also constant message, \"Only exit vehicle in P position\", \"Trans in emergency mode\". I can't in good faith sell the car to buy another knowing it has this issue. We have been working with White Allen VW in Dayton Ohio. INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11743905",
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "06/13/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "When driving car will read error code that states there is problem with the starter and shuts off all electric components while engine is still running. Has happened multiple times since initial incident."
+  },
+  {
+    "id": "11744272",
+    "make": "Volkswagen",
+    "model": "Atlas",
+    "year": 2019,
+    "components": [
+      "VEHICLE SPEED CONTROL",
+      "SERVICE BRAKES",
+      "FORWARD COLLISION AVOIDANCE"
+    ],
+    "date": "06/15/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Multiple occurrences where forward collision warning goes off with no vehicles Incident 1. 5/15/2026 Road: Highway I-94 Weather: Clear and sunny Condition: Cruise control on, light traffic, nearest vehicle at least 4 cars in front, 2 vehicles behind and to the right (fast lane), driving in the middle left lane. Forward collision warning went off and took cruise control off. No vehicles stopping in front of me.  Incident 2. 6/3/2026 Road: Urban side streets Weather: Clear and sunny Condition: Coasting towards a roundabout approximately 200' from the intersection, no vehicle in front, no vehicle behind, no animals, people or objects on the road.  Forward Collision Warning went off under no threat of collsion.  Incident 3: 6/14/2026 Road: 2 lane urban road. Weather: Dusk, clear, no rain,  Condition: paved road, no animals, no vehicle in front, vehicle behind, approaching an intersection, coasting (light was yellow) towards intersection. , evening dusk, clear no rain, no precipitate, clear roads. Fwd. Collision warning went off, going straight."
+  },
+  {
+    "id": "11743656",
+    "make": "Volkswagen",
+    "model": "Atlas",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "AIR BAGS",
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "06/12/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The air conditioning drain tube clogged and leaked into the air bag control module and caused an entire electrical failure in my car with air bag sensors, braking, windows rolling down, doors locking and unlocking automatically while driving, etc as well as the carpet getting mold."
+  },
+  {
+    "id": "11742042",
+    "make": "Volkswagen",
+    "model": "Atlas",
+    "year": 2019,
+    "components": [
+      "SUSPENSION"
+    ],
+    "date": "06/04/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The contact owns 2019 Volkswagen Atlas. The contact stated while his wife was driving 45 MPH, she heard a clunking noise coming from the rear vehicle. A dealer was contacted. The vehicle was taken to the dealer where it was diagnosed that the rear coil springs needed to be replaced. The vehicle was repaired as the rear coil springs are being repaired as of today. The contact related to the failure NHTSA Campaign Number:18V904000 (SUSPENSION); however, the VIN was not included in the recall. The manufacturer was not notified of the failure. The failure mileage was 89,000."
+  },
+  {
+    "id": "11740618",
+    "make": "Volkswagen",
+    "model": "Atlas",
+    "year": 2019,
+    "components": [
+      "LANE DEPARTURE"
+    ],
+    "date": "05/28/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "When the lane assist is active the vehicle will launch the car into other lanes without any reason or warning. This has been an ongoing issue since we bought the car. When driving I have been launched into the the next lane over. At a stop light I have had the vehicle jump into the other lane. We have told the dealer about the issue and have been told it will be fixed with a recall. I don't see there is an active recall. The lane assist is more dangerous than it is helpful. It is a feature we paid for and cannot even use. My wife was driving the car on 5/26 during the rain and she told me the car would not stay in the center lane and kept moving her back and forth from one lane to the next creating a very dangerous situation."
+  },
+  {
+    "id": "11746327",
+    "make": "Kia",
+    "model": "Telluride",
+    "year": 2020,
+    "components": [
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "06/24/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My 2020 Kia Telluride that has Snow White Pearl paint that is coming off in chunks. There are lots of records of 2017-2023 Kia's that have the Snow White Paint peeling off. The paint is coming off the roof and hood area. The exposed metal can quickly develop penetrating rust. This weakens the metal's ability to withstand impacts increasing the risk of failure during a crash. Also the flaking clear coat and paint, creates highly reflective surfaces distracting other drivers. Also the paint peeling in large sheets can detach and potentially strike following vehicles and causing road hazards or accidents.  The dealership has taken pictures and acknowledged the issue but fails to correct it due to \"high mileage\" and me not having a paint warranty. The problem started about 7 months ago"
+  },
+  {
+    "id": "11746035",
+    "make": "Kia",
+    "model": "Telluride",
+    "year": 2020,
+    "components": [
+      "STRUCTURE"
+    ],
+    "date": "06/23/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My vehicle\u2019s white exterior paint and clear coat are delaminating and peeling off in pieces while driving. Loose paint pieces fly off the vehicle, creating a potential road hazard for other drivers.  The defect affects the hood, the front, and the area above the windshield. The vehicle is available for inspection upon request.  The paint delamination has been visually confirmed and is worsening over time. I have contacted Kia customer service multiple times by phone and email requesting repair or resolution. Kia has not responded or offered any remedy. The defect has not been inspected by the dealer as Kia declined to address it.  No warning lamps or messages are applicable to this defect. The peeling first became noticeable approximately June 1st, 2026 and has progressively worsened since."
+  },
+  {
+    "id": "11745343",
+    "make": "Kia",
+    "model": "Telluride",
+    "year": 2020,
+    "components": [
+      "STRUCTURE"
+    ],
+    "date": "06/20/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "What component or system failed or malfunctioned, and is it available for inspection upon request?  The factory paint on my 2020 white Kia Telluride has failed. The paint is peeling and flaking from the hood and the roof of the vehicle. The vehicle is available for inspection upon request, and I have photographs documenting the paint failure.  How was your safety or the safety of others put at risk?  The peeling paint exposes the underlying metal to the elements, which may lead to corrosion and deterioration of the vehicle over time. Pieces of peeling paint may also detach while the vehicle is being driven, creating a potential hazard for other motorists. In addition, the loss of the factory paint significantly reduces the value of the vehicle and raises concerns about the quality and durability of the manufacturer's finish.  Has the problem been reproduced or confirmed by a dealer or independent service center?  At this time, the problem has not been confirmed by a Kia dealer or an independent service center. However, I have found numerous reports from other owners of white Kia Tellurides experiencing similar paint peeling issues, suggesting this may be a widespread manufacturing defect.  Has the vehicle or component been inspected by the manufacturer, police, insurance representatives, or others?  Not at this time.  Were there any warning lamps, messages, or other symptoms of the problem prior to the failure, and when did they first appear?  There were no warning lights, messages, or other vehicle symptoms before the paint began peeling. The issue developed gradually as the factory paint began separating from the hood and roof under normal use."
+  },
+  {
+    "id": "11745353",
+    "make": "Kia",
+    "model": "Telluride",
+    "year": 2020,
+    "components": [
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "06/20/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The paint on my white 2020 Kia Telluride is peeling/delaminating from the hood and the area directly above the windshield (A-pillar/roof edge). Peeling began as small chips and has progressed to larger sections coming off down to bare primer/metal, with no impact or collision involved. This appears consistent with a known paint adhesion defect affecting Pearl White Kia Telluride and Sorento vehicles across multiple model years, as documented in numerous other owner complaints and online forums.  The peeling paint exposes bare metal to the elements, creating a risk of corrosion/rust that could compromise body panel integrity over time. It also significantly reduces visibility-adjacent surface integrity near the windshield area and creates sharp/jagged paint edges. This is not isolated wear-and-tear damage but a manufacturing/coating defect, as the primer layer is visibly intact and separating cleanly from the base coat.  I am requesting NHTSA investigate this as a widespread manufacturing defect, as it appears Kia has been aware of this issue but has not issued a recall or extended warranty coverage to affected owners outside the standard paint warranty period."
+  },
+  {
+    "id": "11745421",
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "06/20/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The engine failed and is now inoperable. The vehicle has been consuming excessive oil since I purchased it in 2022. I have all oil change records and top offs documented. In May 2026 the engine had a total failure, was making excessive noise, was shuddering and vibrating, blowing lots of smoke from the exhaust and then would not start. The check engine light came on.  I towed it to Roseville Kia for diagnosis. Kia refused to honor the lifetime warranty under the class action lawsuit, claiming the engineer failure was due to a damaged exhaust valve. The did not complete the diagnosis. They did not follow the NHTSA engine replacement flowchart past flowchart A because code p1326 was not present. However the flowchart specifies engine noise and failure to turn over qualify the technician to perform flowcharts B and C. Kia is refusing to complete the diagnosis and evaluate the rod bearings for damage, which would likely qualify the engine for replacement under warranty."
+  },
+  {
+    "id": "11742753",
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2019,
+    "components": [
+      "SERVICE BRAKES",
+      "FORWARD COLLISION AVOIDANCE"
+    ],
+    "date": "06/08/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Multiple lights on dash same time. Auto Hold, Fwd Collision, Adaptive Cruise and ABS. Code said ABS Module faulty. Multiple Safety System affected and rendered useless."
+  },
+  {
+    "id": "11741862",
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "06/03/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My 2019 Sorento 3.3L suffered high oil consumption followed by a severe oil leak at the back of the head/engine block threads. There is an odor of coolant which smells sweet with no visible coolant leak meaning there is likely coolant seeping into the engine mixing with the oil. I believe this an ongoing engine failure caused from Kia not correcting the issues over many years."
+  },
+  {
+    "id": "11741175",
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "05/31/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "There is a recall for the HAVOC system foe the years 2021-2023,  25V649 recall. My car is a 2019 kia sorento and I m having the same issues, I have already replaced blower motor, resistor, air filter replaced, fuses, air compressor clutch relays, 3 times. Coolant is fine. After reading this recall my car same issues, please add my car to the recall list, I have spent over $600 in mechanic fees and parts, now the problem is recurring. Its a wiring issue, there was melted part on the blower motor when everything was replaced in February, I can't afford more repairs. I can get reciepts from parts i had to buy and a invoice from my mechanic, the issue of AC/heater reoccurring on May 29th. 2026. I had pur in a relay last week, now needs another one. Cost of them $25.00."
+  },
+  {
+    "id": "11744427",
+    "make": "Kia",
+    "model": "Forte",
+    "year": 2019,
+    "components": [
+      "ENGINE AND ENGINE COOLING"
     ],
     "date": "06/16/2026",
     "crash": false,
     "fire": false,
     "injuries": 0,
     "deaths": 0,
-    "summary": "Engine fail due to lifters collapsing, had a really bad lifter on #3 and #2 and cause to chew out camshaft . Needed a new engine and gm didnt wanna honor it warranty only partial ."
+    "summary": "The contact owns a 2019 Kia Forte. The contact stated that after driving to the local store and turning off the vehicle, after returning to the vehicle, the vehicle failed to restart. The vehicle was towed to the local dealer to be diagnosed. The vehicle was diagnosed with a timing chain failure caused by low engine oil. The contact stated that prior to the failure, the vehicle had experienced excessive oil consumption and engine oil was constantly added to the vehicle. The manufacturer was notified of the failure, but no assistance was offered. The failure mileage was 124,000."
   },
   {
-    "id": "11743480",
-    "make": "GMC",
-    "model": "Sierra 1500",
+    "id": "11741432",
+    "make": "Kia",
+    "model": "Forte",
     "year": 2019,
     "components": [
-      "ENGINE"
+      "ELECTRICAL SYSTEM",
+      "FUEL/PROPULSION SYSTEM",
+      "FORWARD COLLISION AVOIDANCE"
     ],
-    "date": "06/11/2026",
+    "date": "06/01/2026",
     "crash": false,
     "fire": false,
     "injuries": 0,
     "deaths": 0,
-    "summary": "On May 27, 2026, I was on my way home from work when I went to accelerate the vehicle and all the sudden it started shaking and the check engine light came on with the EBS. I was able to get the vehicle to a repair shop local the next day, who took the car apart. What was thought to be an easy fix of spark plugs and fuel injector, became even more after they put back together and the cylinder was still misfiring. After several hours of taking apart the engine, the mechanic determined that the hydraulic valve lifters had failed. This has been an ongoing issue with with the 5.8L V8. Due to a recall not being under the vin yet, i have now incured a $16k expense to add an engine to it after i purchased it in Nov of 25 at $97,000. This is a saftey issue and luckily no one was hurt when the car started shaking and couldn't go over a certain speed. I want this reviewed and looked at for possible reimbursement as there have been several other vehicles with the same known issue."
+    "summary": "While driving, the Forward Collision Warning system activated unexpectedly without any apparent hazard or obstruction in front of my vehicle. Immediately after the warning appeared, the vehicle suddenly lost speed and became very slow to accelerate. I was unable to safely increase my speed while traveling on a busy roadway, creating a dangerous situation and nearly resulting in a collision with surrounding traffic. Due to the sudden loss of power and inability to accelerate normally, I activated my hazard lights and was forced to pull onto the shoulder of the road for my safety and the safety of other drivers. There were no visible obstacles, vehicles, or road conditions that appeared to justify the activation of the Forward Collision Warning system. This unexpected activation and resulting loss of vehicle performance created a significant safety risk. I am submitting this complaint because a malfunction of the Forward Collision Warning system or related vehicle systems could potentially lead to a serious accident or injury.  I have experienced recurring brake issues despite recently having the brakes replaced. The problem continues to occur, raising concerns that there may be an underlying electrical or electronic malfunction affecting vehicle performance. I was recently pulled over shortly after the brake replacement due to concerns regarding the vehicle's braking system. Because the issue persists after repairs, I am concerned about the safety of the vehicle and the potential risk of a crash or loss of control."
+  },
+  {
+    "id": "11736553",
+    "make": "Kia",
+    "model": "Forte",
+    "year": 2019,
+    "components": [
+      "ENGINE AND ENGINE COOLING"
+    ],
+    "date": "05/08/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The contact owns a 2019 Kia Forte. The contact stated that while driving on the highway at 70 MPH, the contact had exited when the oil and battery warning lights were illuminated. The vehicle rolled over to the side of the road. The contact exited the vehicle and, upon inspection, noticed that an excessive amount of oil had leaked onto the ground. The vehicle was towed to an independent mechanic, where it was diagnosed that the drain plug had failed and the engine was damaged. The independent mechanic replaced the drain plug. However, the engine needed to be replaced. The vehicle was towed to the residence and had not been driven since. The contact had not experienced a failure in the past. The manufacturer was not notified of the failure. The failure mileage was approximately 86,000."
+  },
+  {
+    "id": "11735430",
+    "make": "Kia",
+    "model": "Forte",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "05/04/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The transmission had a recall 2 years ago and they gave me a new one (KIA).  I am having issues with my transmission again"
+  },
+  {
+    "id": "11746027",
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2019,
+    "components": [
+      "AIR BAGS"
+    ],
+    "date": "06/23/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "I am reporting a safety defect in my 2019 Mazda CX\u20115 involving the heated seats and airbag system. The vehicle was bought certified pre\u2011owned with a warranty up to 100,000 miles included in the sale. Around March, at about 82,000 miles, the heated seats began causing electrical problems, and I was told this fault could affect the airbag system and that the airbags might not deploy in a crash. I have taken the car to a Mazda dealer four times and the issue has not been fixed; the dealer disconnected the heated seats and now claims they are \u201caftermarket,\u201d even though they were on the car when I bought it and were never disclosed as aftermarket. I am now at about 87,000 miles, still within the warranty, and facing a large repair bill while Mazda corporate and the dealers refuse to correct this safety\u2011related defect under warranty. I am asking NHTSA to record this complaint and consider investigating similar issues with Mazda heated seats and possible airbag non\u2011deployment."
+  },
+  {
+    "id": "11744167",
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "06/15/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The engine has an oil leak from the head.  It is a common problem with this year and make.  It is a manufacturer's defect called a porous head where oil leaks through the casting not a seal.  I've already spent $2000 to repair but still leaks.  Oil leaks onto the exhaust and smokes causing fumes in the inside of the car and can be a fire hazard.  Mazda is well aware of the problem but has yet to address it."
+  },
+  {
+    "id": "11743725",
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "06/12/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "We began occasionally smelling an acrid smell, but didn't think much of it due to lack of visible leaks or warning lights. During a routine oil change at the mazda dealer, we asked about the smell, and the tech almost immediately found the issue, saying he had seen it a few times before. The oil is leaking from the head down onto the manifold due to what seems to be a recurring defective casting issue.  quote from mazda dealer service department \"During the vehicle's inspection, found oil leaking from the engine. A further inspection found the oil to be leaking from behind the cylinder head near the exhaust manifold. oil is leaking through the casting of the cylinder head it appears. will recommend replacing the cylinder head due to the oil leak.\""
+  },
+  {
+    "id": "11742857",
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "06/09/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Cylinder block cracked on back side of engine.  This crack leaks oil onto the exhaust manifold.  Condition Confirmed by Mazda dealer.  Oil burns on the exhaust filling the cabin with smoke impairing the driver. Also a high risk of combustion in the engine compartment   Inspection report and pictures available.   No sign or warning of issue. Crack happened on a daily drive to work. No engine lights noise or smell until head suddenly cracked causing a large oil leak.  Mazda has an internal TSB 01-002/23 admitting that these cars in this year range have a manufacturer defect in the block"
+  },
+  {
+    "id": "11711782",
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2019,
+    "components": [
+      "AIR BAGS"
+    ],
+    "date": "01/18/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "1. What component or system failed or malfunctioned, and is it available for inspection upon request? The airbag system, specifically the curtain airbags and related airbag control components, malfunctioned by deploying spontaneously without any collision or impact. The vehicle and deployed airbags are still available and can be inspected upon request. 2. How was your safety or the safety of others put at risk? The spontaneous deployment of all four curtain airbags created an immediate safety hazard. Airbag deployment can cause injury, disorientation, or loss of control, especially if it occurs unexpectedly. Although the vehicle was stationary at the time, deployment without warning posed a serious risk of injury to occupants and could have resulted in a crash if it had occurred while driving. 3. Has the problem been reproduced or confirmed by a dealer or independent service center? The problem has not been reproduced, as the airbags have already deployed. However, the spontaneous deployment itself is clear evidence of a malfunction. The issue has not been resolved or repaired, and responsibility for repair has not been accepted. 4. Has the vehicle or component been inspected by the manufacturer, police, insurance representatives, or others? The incident was reported to Progressive Insurance, which denied coverage because there was no accident or collision. The vehicle has not yet been inspected by the manufacturer for defect analysis. No police inspection occurred because there was no crash or injury. 5. Were there any warning lamps, messages, or other symptoms of the problem prior to the failure, and when did they first appear? Yes. The airbag warning light was illuminated prior to the incident, indicating a potential system fault. Additionally, a strong chemical odor was noticed inside the vehicle immediately before deployment, originating from the front passenger side, moments before all four curtain airbags deployed."
+  },
+  {
+    "id": "11701705",
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2019,
+    "components": [
+      "UNKNOWN OR OTHER"
+    ],
+    "date": "11/26/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Driver side door handle failed. Cannot enter or exit through driver side door. If something were to happen that we need to get out in an emergency situation we cannot exit through the driver side door. No damage occurred. Just stopped working"
+  },
+  {
+    "id": "11678802",
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2019,
+    "components": [
+      "SERVICE BRAKES",
+      "FORWARD COLLISION AVOIDANCE"
+    ],
+    "date": "08/06/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "To whom it may concern,   I was on a back road late in the evening not far from home [XXX] and a small deer ran into the road. I needed to brake to avoid hitting the deer. After breaking, a Brake System Malfunction warning message and i-ACTIVESENSE System Malfunction warning illuminated on my dashboard. I brought the car to a Mazda dealership the next morning. The technician determined that the brake fluid level sensor became stuck, requiring replacement of the brake fluid reservoir and the brake fluid level sensor.   What failed: The repairs include replacement of the Brake Fluid Reservoir and the Brake Fluid Level Sensor. This is the link to the dealer report [XXX] . No one other than the dealer has inspected these parts to my knowledge. There was no accident of any kind.  I personally felt unsafe after these parts failing and reached out to Mazda Customer Care to request investigation of the issue. The case manager just called me back today to say they could not help me.   Mazda has denied warranty coverage, claiming the parts are not covered. However, I really do feel this is a critical safety system component that failed after normal emergency use with no collision or impact.  Why I feel this is a safety concern:  - The brake warning system became unreliable after a single emergency stop. - My car only has 42k miles and is in excellent condition and is fully dealer serviced. - A driver could lose the ability to receive proper brake system warnings if this failure occurs again. - A critical brake sensor should not fail under normal driving conditions, and its failure could lead to delayed driver response in an actual brake fluid loss scenario. It makes me worry for the future.  For your consideration: I believe this represents a safety-related defect that should be investigated, as it affects the reliability of the brake system warning indicators in the 2019 Mazda 3.  I appreciate your time and consideration. INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11662114",
+    "make": "Mazda",
+    "model": "Mazda3",
+    "year": 2019,
+    "components": [
+      "SEAT BELTS"
+    ],
+    "date": "05/20/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The seat belt stopped retracting and no longer works, it was reported directly to the Mazda agency, but the warranty was not valid. The dealer said that the tensioners no longer work and the seat belt needs to be replaced."
+  },
+  {
+    "id": "11746202",
+    "make": "Acura",
+    "model": "MDX",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN",
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "06/24/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "While driving, the vehicle experienced a sudden internal mechanical and electronic transmission failure. Without warning, the vehicle shifted itself directly into Park while navigating the busy intersection of [XXX] and [XXX]. This caused a complete loss of propulsion and left the vehicle entirely immobilized in the middle of a high-speed junction. The vehicle could not be moved, creating an immediate, severe highway safety hazard that required an emergency 911 police response to manage traffic and protect the vehicle from being rear-ended. The dealership scan tool later pulled diagnostic code P0730 (Incorrect Gear Ratio) along with multiple clutch performance failures (P07A4, P07A2, P07A8). INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11745700",
+    "make": "Acura",
+    "model": "MDX",
+    "year": 2019,
+    "components": [
+      "FUEL/PROPULSION SYSTEM"
+    ],
+    "date": "06/22/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "On [XXX], while traveling at highway speeds on [XXX], the vehicle suffered a sudden, complete loss of engine propulsion. The vehicle rapidly decelerated, refused to respond to accelerator input, and forced itself into a dangerous \"Limp Mode\" in live traffic, creating an immediate highway safety hazard. Multiple warning messages illuminated on the dashboard.  The vehicle was towed to Mile High Acura under Repair Order #[XXX]. Diagnostic testing pulled stored Code P0087 for Low Fuel Pressure at the Fuel Rail. An inline fuel pressure gauge confirmed that the low-side fuel pressure was rapidly fluctuating between 55 and 64 PSI at idle. The dealership escalated the data to the Acura Corporate Tech Line (Ref #[XXX]), which reviewed the vehicle's onboard snapshot data and officially determined a terminal defect in the low-pressure fuel pump assembly, mandating the replacement of the low-side pump and both fuel relays.    Dealership service records confirm that this vehicle previously had a low-pressure fuel pump recall performed in 2021 under NHTSA Campaign Number 21V-215 (Acura Code CAI).  The sudden failure of this replacement component matches the exact failure conditions detailed in the subsequent NHTSA Campaign Number 23V-858 (Acura Codes KGC/KGD). In that expanded campaign, American Honda Motor Co. openly admitted to federal regulators that the early replacement \"service parts\" distributed and installed during the 21V-215 window were manufactured with the exact same defective, swelling density impellers prone to subsequent deformation and complete failure.  Despite their own corporate Tech Line explicitly confirming that the root cause of this dangerous highway power loss was the low-pressure fuel pump\u2014the exact component of the 21V-215 and 23V-858 safety recall campaigns\u2014Acura Client Relations denied 100% safety remedy coverage.  Acura refused to provide the technical basis for their denial in writing.  INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11744197",
+    "make": "Acura",
+    "model": "MDX",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM",
+      "SERVICE BRAKES",
+      "FUEL/PROPULSION SYSTEM"
+    ],
+    "date": "06/15/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Under normal driving conditions warning lights for \"electric parking brake\" and \"emissions system problem\" came on the dashboard and the 'brake' light began flashing.  No change in performance.  Auto parts store diagnostic indicated EVAP valve as the possible problem code, along with two other unrelated codes - none connected to brakes or emissions.  The 12-volt battery tested strong.  Drove another 100 miles with lights still on, but the 'brake' light would turn off after about 5 mins of highway driving/no braking.  The next day the warning lights continued.  After normal city driving I shut the car off, waited 30 seconds, pushed the start button twice (accessory mode) and held the brake pedal down while pulling up on the brake release button for 10 seconds.  Started the car without any error messages."
+  },
+  {
+    "id": "11744263",
+    "make": "Acura",
+    "model": "MDX",
+    "year": 2019,
+    "components": [
+      "FORWARD COLLISION AVOIDANCE"
+    ],
+    "date": "06/15/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "On 04/03/2026, 6:04 PM, Acura MDX 2019, Base, SH-AWD, at 105,254 miles on the odometer, posted U3000-49 control module internal electronic failure. The fault appears to be at the 36160-TYS-A02 camera assembly monocular results in a series of cascading errors on the dash with indicators on for LKAS (Lane Keeping Assist), ACC (Adaptive Cruise Control), CMBS (Collision Mitigation Brake System), brake and transmission warning lights that blink continuously. The sudden lost of safety system especially at highway speeds places extreme risk to occupants of vehicle and other drivers sharing the roadway. The current TSB 23-008 does not repair fault, origin of fault not software, but requires replacement of front camera assembly (36160-TYS-A02) and recalibration at owner expense. There appears to be a lot of 36160-TYS-A02 camera monocular that either have insufficient solder, cold solder, bad crimps or otherwise that over time results in failure."
+  },
+  {
+    "id": "11745504",
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "year": 2019,
+    "components": [
+      "STEERING",
+      "POWER TRAIN"
+    ],
+    "date": "06/21/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Powertrain: harsh, jerky shifting, violent, lurching gear changes, pause before engaging and high revving and lack of acceleration, mostly noticed at 50-60mph  Steering PE25009 - catching or sticking when making minor or gradual turns in either direction when the steering wheel is positioned near the 11 o'clock or 1 o'clock positions. It requires extra force to break free and jerks the steering"
+  },
+  {
+    "id": "11743874",
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "year": 2019,
+    "components": [
+      "STEERING"
+    ],
+    "date": "06/13/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "When driving around curves the electric steering is malfunctioning. Making it unsafe to drive almost like it is sticking then when you correct it, it frees up and over corrects. This has been going on for some time now and keeps getting worse and worse. After a little research it seems a lot of other people are having this problem"
+  },
+  {
+    "id": "11742577",
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "06/07/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "The entire electrical system is messed up. There will be times it works fine but all of a sudden while driving the odometer will switch between mph and kilometers, it'll change the screen, heated seats/steering wheel will turn on or off, it'll change the air system, the stop/start frequently goes out, we've had to replace both batteries and within a few months are having to replace both again. The transmission has a lot of issues as well and it's not safe while driving it'll \"jump\" or stall while shifting gears."
+  },
+  {
+    "id": "11741016",
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "year": 2019,
+    "components": [
+      "STEERING",
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "05/30/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "2019 Chrysler Pacifica. The vehicle has ongoing steering, electrical, and power steering/EPS failures. The steering wheel intermittently jerks/pulls while driving, the vehicle has experienced random loss of steering assist, and the electrical system cuts out or malfunctions during normal use. The steering wheel lights and backup camera guidelines also disappear during driving sessions and only return after fully restarting the vehicle. The exact root cause is UNKNOWN, but the affected systems appear to include the EPS/power steering system, steering/suspension components, battery/electrical system, and possibly related control modules.  My safety and others\u2019 safety were put at risk because the vehicle has lost steering assist and had electrical failure while being driven, including a prior failure in an intersection. When the steering assist drops or the wheel jerks, the vehicle becomes difficult to control. This is especially dangerous because I transport my family in this vehicle.  The issue has been reported repeatedly since purchase. The vehicle was inspected/repaired through Carvana/SilverRock\u2019s repair process at Brockman Automotive, including rack and pinion/steering-related work. After that repair, the vehicle continued to drift and handle improperly. A later independent inspection at Davidson Automotive identified a loose/not properly secured tie rod, alignment problems, and a failed auxiliary battery. The shop could not complete deeper diagnostics until those prerequisite issues were corrected. The vehicle has also suffered abnormal front tire wear after the steering/alignment problems.  Warning/symptoms before or during failures include steering wheel jerking/pulling, clunking/clanking/grinding/groaning noises, vehicle drift, service start/stop warning, electrical malfunctions, intermittent steering wheel control/light issues, loss of backup camera guidelines, and loss of steering assist. The vehicle/component is available for inspection upon request."
+  },
+  {
+    "id": "11718924",
+    "make": "Infiniti",
+    "model": "QX60",
+    "year": 2019,
+    "components": [
+      "VEHICLE SPEED CONTROL",
+      "ENGINE"
+    ],
+    "date": "02/18/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "COMPONENT/SYSTEM FAILURE: Timing chain and timing chain tensioner/guide assembly failure. The timing chain has stretched prematurely, causing the vehicle to fail to start, loss of acceleration response, check engine light illumination, and audible rattling noise from the engine compartment. The failed components are available for inspection upon request at the dealership.  SAFETY RISK: The vehicle would not accelerate when the gas pedal was pressed, creating a dangerous situation where the vehicle could not respond to driver input. This poses a serious safety risk in traffic, highway merging, or emergency evasive situations. Additionally, the failure to start leaves occupants stranded without warning.  DEALER CONFIRMATION: The problem has been diagnosed and confirmed by an authorized Infiniti dealer. The dealer determined the cause is timing chain stretching and has quoted $6,500 for repair, which includes timing chain, tensioners, and guides replacement.  PRIOR WARNINGS: Approximately one week prior to complete failure, the vehicle began exhibiting a rattling noise from the engine. The check engine light illuminated. Shortly after, the vehicle would not start and would not accelerate when the gas pedal was pressed.  KNOWN DEFECT: This is a documented defect. Infiniti Technical Service Bulletin ITB19-027a addresses timing chain-related diagnostic trouble codes on 2017-2024 QX60 vehicles with the VQ35DD engine. The timing chain tensioner and guide failure on VQ-series engines is a well-documented premature wear issue affecting vehicles well before expected service life. At 80,000 miles, this failure is premature and indicative of a design or manufacturing defect, not normal wear.  REQUEST: I am requesting NHTSA investigate this safety defect and consider requiring a recall for affected Infiniti QX60 vehicles. Nissan/Infiniti corporate has declined goodwill assistance despite the existence of TSBs acknowledging the issue."
+  },
+  {
+    "id": "11709996",
+    "make": "Infiniti",
+    "model": "QX60",
+    "year": 2019,
+    "components": [
+      "ELECTRICAL SYSTEM"
+    ],
+    "date": "01/09/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Odometer Fraud. The contact purchased a 2019 Infinity QX60. The contact discovered a mileage discrepancy after the purchase. The vehicle was a dealer sale. At the time of purchase, on February 25, 2022, the mileage was 59,607. It was later discovered that the mileage on the Title was 116,134. The check engine warning light illuminated, and the vehicle was taken to the dealer. The contact retrieved a Carfax history check, and it showed that on Oct. 4, 2021, the mileage was 52,177. Then, 48 hours later, on Oct. 6, 2021, on the recorded certified checklist, the mileage was 53,854. The information on the Carfax report was before the contact purchased the vehicle. The contact stated that on Oct. 6, 2021, the mileage information was blank on the Carfax report. The dealer was contacted; however, no assistance was provided."
+  },
+  {
+    "id": "11707595",
+    "make": "Infiniti",
+    "model": "QX60",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "12/29/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Vehicle shudders on acceleration. 2013-2018 vehicles were recalled. 2019 is doing the same thing."
+  },
+  {
+    "id": "11700786",
+    "make": "Infiniti",
+    "model": "QX60",
+    "year": 2019,
+    "components": [
+      "POWER TRAIN"
+    ],
+    "date": "11/21/2025",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My 2019 Infiniti QX60 (VIN [XXX] ) experienced a sudden transmission failure at 99,995 miles. The vehicle would no longer shift into gear and became undriveable.  The dealer found diagnostic code P2813 \u2013 Pressure Control Solenoid G, indicating internal transmission failure. The repair estimate is 8,369.87.  This appears to be part of a known pattern of CVT failures affecting Infiniti/Nissan vehicles, including the QX60. Earlier models (2015\u20132018) had warranty extensions for similar CVT defects.  This failure occurred without warning and poses a major safety hazard, as the vehicle could not accelerate or be driven. My wife was pulling out of the parking area after picking up my [XXX]  and as soon as she pulled out and shifted it to drive it would not. Ended up with a vehicle almost hitting them, which was a close call. After shifting it back-and-forth it finally went into gear and took it straight to the service center. The service center even said that they had to tow it into the garage because it would not go into gear any longer.  I am requesting NHTSA investigate whether this transmission defect affects 2019 and later QX60 models and whether a recall or manufacturer remedy is warranted. INFORMATION REDACTED PURSUANT TO THE FREEDOM OF INFORMATION ACT (FOIA), 5 U.S.C. 552(B)(6)"
+  },
+  {
+    "id": "11736708",
+    "make": "Buick",
+    "model": "Encore",
+    "year": 2019,
+    "components": [
+      "SUSPENSION",
+      "AIR BAGS",
+      "ENGINE"
+    ],
+    "date": "05/08/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Car has airbag light on. The car keeps leaking which then caused damage to my spark plugs and coil pack. It then led to the O2 sensors being burned. It has been at the dealership multiple times within a 3-week time frame. The low fuel light comes on when it is on a full tank, then it begins to hesitate and the car lunges forward when at a complete stop. Tires act like they cannot keep traction when all 4 tires are brand new and front rotors and brakes have been replaced. Yes, all my concerns have been brought to many dealerships' attention. It is unsafe and unreliable. The dealership said they could not replicate the issue but once I get back into my car it starts up."
+  },
+  {
+    "id": "11735620",
+    "make": "Buick",
+    "model": "Encore",
+    "year": 2019,
+    "components": [
+      "ENGINE",
+      "FUEL/PROPULSION SYSTEM"
+    ],
+    "date": "05/04/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "My check engine light continues to turn on and the code is related to the wastegate actuator/turbo charger. My car is running rough and doesn't accelerate properly. It sometimes rocks back and forth when I try to accelerate. Which is a KNOWN PROBLEM WITH BUICK. GMC REFUSES TO RECALL THIS WELL DOCUMENTED ISSUE.  And naturally, it becomes an issue after the warranty expires.  Mileage: 67,067"
+  },
+  {
+    "id": "11732593",
+    "make": "Buick",
+    "model": "Encore",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "04/20/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "3 leaks in oil cooler. When mech got in to do the repairs, they noticed the turbo was cracked. Replaced it with new turbo which also failed. After the second new turbo was installed the car ran fine for about a day and now the turbo continuously stalls while driving it."
+  },
+  {
+    "id": "11729050",
+    "make": "Buick",
+    "model": "Encore",
+    "year": 2019,
+    "components": [
+      "ENGINE"
+    ],
+    "date": "04/03/2026",
+    "crash": false,
+    "fire": false,
+    "injuries": 0,
+    "deaths": 0,
+    "summary": "Car sputtered and slowed on expressway,  turbo failed. Recalls issued 2016 and 2017, then reissued 2020 to 2023, same turbo, 2019 was exempted"
   }
 ]
