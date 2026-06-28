@@ -1,9 +1,12 @@
 import { Pinecone } from "@pinecone-database/pinecone";
+import { ingestVehicle } from "../ingest/route";
 
 const EMBED_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent";
 const CHAT_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent?alt=sse";
+const GENERATE_URL =
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
 const systemPrompt = `You are CarVerdict, an assistant that explains the common problems with a specific car using real owner complaints filed with the NHTSA.
 
@@ -27,15 +30,73 @@ async function embed(text) {
   return data.embedding.values;
 }
 
+// pull the specific car out of the question so we can load it on demand if it's not
+// in the index yet. Returns { make, model, year } or null. Year is null when the user
+// didn't give one, and we only auto-load a vehicle when we know its year.
+async function extractVehicle(question) {
+  const prompt = `Extract the vehicle from this question. Reply with only JSON like {"make":"Toyota","model":"Camry","year":2019}. Use "" or 0 for anything not stated. If there is no specific car, reply null.\n\nQuestion: ${question}`;
+  try {
+    const res = await fetch(GENERATE_URL, {
+      method: "POST",
+      headers: {
+        "x-goog-api-key": process.env.GEMINI_API_KEY,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
+    });
+    const data = await res.json();
+    const text = (data.candidates?.[0]?.content?.parts?.[0]?.text || "")
+      .replace(/```json|```/g, "")
+      .trim();
+    const v = JSON.parse(text);
+    if (!v || !v.make || !v.model) return null;
+    return { make: v.make, model: v.model, year: v.year ? Number(v.year) : null };
+  } catch {
+    return null;
+  }
+}
+
+// is this exact vehicle already in the index? a filtered lookup, not the topK results,
+// so a differently worded follow-up about the same car doesn't fetch it a second time.
+async function alreadyHave(index, vector, vehicle) {
+  const res = await index.query({
+    topK: 1,
+    vector,
+    includeMetadata: false,
+    filter: {
+      make: { $eq: vehicle.make },
+      model: { $eq: vehicle.model },
+      year: { $eq: vehicle.year },
+    },
+  });
+  return res.matches.length > 0;
+}
+
 export async function POST(req) {
   const { messages } = await req.json();
+  if (!messages?.length) {
+    return new Response("Sorry, I didn't get a question to answer.");
+  }
   const question = messages[messages.length - 1].content;
 
-  // pull the most relevant complaints out of Pinecone
   const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
   const index = pc.index(process.env.PINECONE_INDEX);
-  const vector = await embed(question);
-  const search = await index.query({ topK: 8, vector, includeMetadata: true });
+
+  // find the most relevant complaints, pulling the car from NHTSA first if we don't have it
+  let search;
+  try {
+    const vector = await embed(question);
+    search = await index.query({ topK: 8, vector, includeMetadata: true });
+
+    const vehicle = await extractVehicle(question);
+    if (vehicle && vehicle.year && !(await alreadyHave(index, vector, vehicle))) {
+      await ingestVehicle(vehicle);
+      await new Promise((r) => setTimeout(r, 2000)); // give the new vectors a moment to be searchable
+      search = await index.query({ topK: 8, vector, includeMetadata: true });
+    }
+  } catch {
+    return new Response("Sorry, I had trouble looking that up. Please try again.");
+  }
 
   let context = "";
   for (const match of search.matches) {
