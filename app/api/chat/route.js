@@ -1,5 +1,6 @@
 import { Pinecone } from "@pinecone-database/pinecone";
 import { ingestVehicle } from "../ingest/route";
+import { compareVehicles, verdictSystemPrompt } from "../compare/route";
 
 const EMBED_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent";
@@ -30,11 +31,11 @@ async function embed(text) {
   return data.embedding.values;
 }
 
-// pull the specific car out of the question so we can load it on demand if it's not
-// in the index yet. Returns { make, model, year } or null. Year is null when the user
-// didn't give one, and we only auto-load a vehicle when we know its year.
-async function extractVehicle(question) {
-  const prompt = `Extract the vehicle from this question. Reply with only JSON like {"make":"Toyota","model":"Camry","year":2019}. Use "" or 0 for anything not stated. If there is no specific car, reply null.\n\nQuestion: ${question}`;
+// Pull the vehicle(s) and any focus area out of the question. One vehicle means a
+// normal answer (auto-loaded if we don't have it); two or more means a comparison.
+// Returns { vehicles: [{ make, model, year }], focus }. year is null when not stated.
+async function extractIntent(question) {
+  const prompt = `From this question, list the vehicles asked about and any specific concern. Reply with only JSON like {"vehicles":[{"make":"Toyota","model":"Camry","year":2019}],"focus":"transmission"}. Use "" or 0 for anything not stated, and "focus":null if no specific part is mentioned. Include every vehicle when the question compares more than one. If there is no specific car, reply {"vehicles":[],"focus":null}.\n\nQuestion: ${question}`;
   try {
     const res = await fetch(GENERATE_URL, {
       method: "POST",
@@ -48,11 +49,13 @@ async function extractVehicle(question) {
     const text = (data.candidates?.[0]?.content?.parts?.[0]?.text || "")
       .replace(/```json|```/g, "")
       .trim();
-    const v = JSON.parse(text);
-    if (!v || !v.make || !v.model) return null;
-    return { make: v.make, model: v.model, year: v.year ? Number(v.year) : null };
+    const parsed = JSON.parse(text);
+    const vehicles = (parsed.vehicles || [])
+      .filter((v) => v && v.make && v.model)
+      .map((v) => ({ make: v.make, model: v.model, year: v.year ? Number(v.year) : null }));
+    return { vehicles, focus: parsed.focus || null };
   } catch {
-    return null;
+    return { vehicles: [], focus: null };
   }
 }
 
@@ -72,56 +75,21 @@ async function alreadyHave(index, vector, vehicle) {
   return res.matches.length > 0;
 }
 
-export async function POST(req) {
-  const { messages } = await req.json();
-  if (!messages?.length) {
-    return new Response("Sorry, I didn't get a question to answer.");
-  }
-  const question = messages[messages.length - 1].content;
-
-  const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
-  const index = pc.index(process.env.PINECONE_INDEX);
-
-  // find the most relevant complaints, pulling the car from NHTSA first if we don't have it
-  let search;
-  try {
-    const vector = await embed(question);
-    search = await index.query({ topK: 8, vector, includeMetadata: true });
-
-    const vehicle = await extractVehicle(question);
-    if (vehicle && vehicle.year && !(await alreadyHave(index, vector, vehicle))) {
-      await ingestVehicle(vehicle);
-      await new Promise((r) => setTimeout(r, 2000)); // give the new vectors a moment to be searchable
-      search = await index.query({ topK: 8, vector, includeMetadata: true });
-    }
-  } catch {
-    return new Response("Sorry, I had trouble looking that up. Please try again.");
-  }
-
-  let context = "";
-  for (const match of search.matches) {
-    const c = match.metadata;
-    const components = Array.isArray(c.components) ? c.components.join(", ") : "";
-    context += `${c.year} ${c.make} ${c.model} (${components})\n${String(c.summary).slice(0, 600)}\n\n`;
-  }
-
-  const body = {
-    system_instruction: {
-      parts: [{ text: `${systemPrompt}\n\nComplaints:\n${context}` }],
-    },
-    contents: messages.map((m) => ({
-      role: m.role === "assistant" ? "model" : "user",
-      parts: [{ text: m.content }],
-    })),
-  };
-
+// stream a Gemini answer for the given system instruction and chat history
+async function streamGemini(systemText, messages) {
   const res = await fetch(CHAT_URL, {
     method: "POST",
     headers: {
       "x-goog-api-key": process.env.GEMINI_API_KEY,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(body),
+    body: JSON.stringify({
+      system_instruction: { parts: [{ text: systemText }] },
+      contents: messages.map((m) => ({
+        role: m.role === "assistant" ? "model" : "user",
+        parts: [{ text: m.content }],
+      })),
+    }),
   });
 
   if (!res.ok || !res.body) {
@@ -159,4 +127,57 @@ export async function POST(req) {
   });
 
   return new Response(stream);
+}
+
+export async function POST(req) {
+  const { messages } = await req.json().catch(() => ({}));
+  if (!messages?.length) {
+    return new Response("Sorry, I didn't get a question to answer.");
+  }
+  const question = messages[messages.length - 1].content;
+
+  const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
+  const index = pc.index(process.env.PINECONE_INDEX);
+
+  let intent;
+  try {
+    intent = await extractIntent(question);
+  } catch {
+    intent = { vehicles: [], focus: null };
+  }
+
+  // two or more vehicles named -> compare them and stream the verdict
+  if (intent.vehicles.length >= 2) {
+    try {
+      const stats = await compareVehicles(intent.vehicles);
+      return streamGemini(verdictSystemPrompt(stats, intent.focus), messages);
+    } catch {
+      return new Response("Sorry, I had trouble comparing those cars just now. Please try again.");
+    }
+  }
+
+  // otherwise answer about a single car, loading it from NHTSA first if we don't have it
+  let search;
+  try {
+    const vector = await embed(question);
+    search = await index.query({ topK: 8, vector, includeMetadata: true });
+
+    const vehicle = intent.vehicles[0];
+    if (vehicle && vehicle.year && !(await alreadyHave(index, vector, vehicle))) {
+      await ingestVehicle(vehicle);
+      await new Promise((r) => setTimeout(r, 2000)); // give the new vectors a moment to be searchable
+      search = await index.query({ topK: 8, vector, includeMetadata: true });
+    }
+  } catch {
+    return new Response("Sorry, I had trouble looking that up. Please try again.");
+  }
+
+  let context = "";
+  for (const match of search.matches) {
+    const c = match.metadata || {};
+    const components = Array.isArray(c.components) ? c.components.join(", ") : "";
+    context += `${c.year} ${c.make} ${c.model} (${components})\n${String(c.summary).slice(0, 600)}\n\n`;
+  }
+
+  return streamGemini(`${systemPrompt}\n\nComplaints:\n${context}`, messages);
 }

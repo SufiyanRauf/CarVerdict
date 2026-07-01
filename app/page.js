@@ -10,6 +10,7 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
+import Link from "next/link";
 
 export default function Home() {
   const [messages, setMessages] = useState([
@@ -144,12 +145,19 @@ export default function Home() {
       }}
     >
       <Box sx={{ width: "100%", maxWidth: 760, px: 2, py: 3 }}>
-        <Typography variant="h5" sx={{ fontWeight: 700 }}>
-          CarVerdict
-        </Typography>
-        <Typography variant="body2" sx={{ color: "#9aa0a6" }}>
-          What owners actually complain about, from NHTSA records.
-        </Typography>
+        <Stack direction="row" justifyContent="space-between" alignItems="flex-start">
+          <Box>
+            <Typography variant="h5" sx={{ fontWeight: 700 }}>
+              CarVerdict
+            </Typography>
+            <Typography variant="body2" sx={{ color: "#9aa0a6" }}>
+              What owners actually complain about, from NHTSA records.
+            </Typography>
+          </Box>
+          <Button component={Link} href="/compare" sx={{ textTransform: "none", color: "#9aa0a6" }}>
+            Compare vehicles
+          </Button>
+        </Stack>
       </Box>
 
       <Stack
