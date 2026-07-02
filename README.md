@@ -4,25 +4,28 @@ CarVerdict is a chat app that tells you what tends to go wrong with a specific c
 
 I built this to make it easier for my family and friends to make an informed decision when buying a car. I also wanted a project that did real retrieval over real public data rather than a toy chatbot.
 
-## What works now
-- Ask about a specific car and get an answer grounded in real NHTSA owner complaints.
-- Answers stream in as they are written, and the chat keeps its history so follow-up questions still have context.
-- It starts with a seeded set of more than 50 popular vehicles (about 220 complaints), and you can add any other car yourself: enter a make, model, and year, or paste a VIN. If you just ask about a car it does not have yet, it loads that car's complaints on the spot and then answers.
-- If a car has no complaints on file, it says so rather than making something up.
+## Live demo
+Add your Vercel URL here after deploying.
 
-## Planned next
-- Compare two cars side by side.
-- Show how defects trend across model years.
+## What it does
+- Ask about a specific car and get an answer grounded in real NHTSA owner complaints, grouped by the part that fails.
+- Answers stream in as they are written, and the chat keeps its history so follow-up questions still have context.
+- Starts with a seeded set of more than 50 popular vehicles (about 220 complaints). Add any other car yourself by make, model, and year, or paste a VIN. Ask about a car it does not have yet and it loads that car's complaints on the spot, then answers.
+- Compare two cars side by side (or just ask "compare the Camry and the Accord" in chat) and get a recommendation based on how often each part is reported and the car's NCAP safety rating.
+- See how a car's complaints trend across model years, including how many were serious (a crash, fire, or injury) and which parts come up most.
+- If a car has no complaints on file, it says so rather than making something up.
 
 ## How it works
 The question is turned into an embedding with Google's gemini-embedding-001 model at 768 dimensions. The closest complaints are pulled from Pinecone and passed to Gemini (gemini-2.5-flash) as context, and the answer is streamed back to the browser. A separate Python notebook (load.ipynb) fetches the complaints from the NHTSA API and loads them into Pinecone once, to seed the popular vehicles. Adding a car (or asking about one that is not loaded yet) runs the same fetch, embed, and store steps live through an API route, so it becomes searchable right away.
+
+Comparing two cars runs a filtered Pinecone query per car to pull just that car's complaints, counts the parts that come up most, and fetches the NCAP overall safety rating from the NHTSA SafetyRatings API, then asks Gemini to weigh it all into a recommendation. The trends view pulls complaint counts straight from the NHTSA API for each model year in a range and charts them, with a short written summary.
 
 ## Tech stack
 - Next.js (App Router) and React
 - Google Gemini for the chat model and the embeddings
 - Pinecone for vector search
-- Material UI for the chat interface
-- NHTSA public data (owner complaints, plus VIN decoding to identify a car; recalls and safety ratings are part of the planned work)
+- Material UI for the interface
+- NHTSA public data: owner complaints, VIN decoding, and NCAP safety ratings
 
 ## Running it locally
 1. Create a Pinecone index named `carverdict` with 768 dimensions and the cosine metric.
@@ -30,3 +33,6 @@ The question is turned into an embedding with Google's gemini-embedding-001 mode
 3. Install the dependencies: `npm install`
 4. Load the seed data into Pinecone once by running `load.ipynb`. It needs a few Python packages first: `pip install -r requirements.txt`.
 5. Start the app: `npm run dev`, then open http://localhost:3000.
+
+## Deploying
+The app runs on Vercel. Import the repository, add the same three environment variables (`GEMINI_API_KEY`, `PINECONE_API_KEY`, and `PINECONE_INDEX`) in the project settings, and deploy. The Pinecone index needs to be seeded once with load.ipynb before the app has anything to answer from.

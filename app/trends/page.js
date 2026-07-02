@@ -39,7 +39,7 @@ export default function Trends() {
   const fieldSx = {
     bgcolor: "#0f1115",
     borderRadius: 1,
-    input: { color: "#e8e8e8" },
+    input: { color: "#e8e8e8", fontSize: 16 },
     "& fieldset": { borderColor: "#2a2e36" },
   };
 

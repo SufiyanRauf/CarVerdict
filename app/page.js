@@ -5,12 +5,20 @@ import {
   Alert,
   Box,
   Button,
+  Chip,
   Snackbar,
   Stack,
   TextField,
   Typography,
 } from "@mui/material";
 import Link from "next/link";
+
+// shown under the greeting so a first-time visitor knows what they can ask
+const examples = [
+  "What goes wrong with a 2018 Honda Accord?",
+  "Compare a 2019 Camry and a 2019 Accord",
+  "Common problems with a 2020 Ford F-150",
+];
 
 export default function Home() {
   const [messages, setMessages] = useState([
@@ -38,8 +46,8 @@ export default function Home() {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  const sendMessage = async () => {
-    const question = input.trim();
+  const sendMessage = async (preset) => {
+    const question = (typeof preset === "string" ? preset : input).trim();
     if (!question || loading) return;
 
     setInput("");
@@ -129,7 +137,7 @@ export default function Home() {
   const fieldSx = {
     bgcolor: "#0f1115",
     borderRadius: 1,
-    input: { color: "#e8e8e8" },
+    input: { color: "#e8e8e8", fontSize: 16 }, // 16px keeps iOS Safari from zooming in on focus
     "& fieldset": { borderColor: "#2a2e36" },
   };
 
@@ -200,6 +208,22 @@ export default function Home() {
             </Box>
           </Box>
         ))}
+        {messages.length === 1 && !loading && (
+          <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
+            {examples.map((q) => (
+              <Chip
+                key={q}
+                label={q}
+                onClick={() => sendMessage(q)}
+                sx={{
+                  bgcolor: "#1b1e24",
+                  color: "#9aa0a6",
+                  "&:hover": { bgcolor: "#23272f" },
+                }}
+              />
+            ))}
+          </Stack>
+        )}
         <div ref={bottomRef} />
       </Stack>
 
@@ -274,7 +298,7 @@ export default function Home() {
             sx={{
               bgcolor: "#1b1e24",
               borderRadius: 1,
-              input: { color: "#e8e8e8" },
+              input: { color: "#e8e8e8", fontSize: 16 },
               "& fieldset": { borderColor: "#2a2e36" },
             }}
           />
