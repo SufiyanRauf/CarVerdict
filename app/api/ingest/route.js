@@ -28,7 +28,7 @@ async function decodeVin(vin) {
 // NHTSA's complaints API uses its own model names (the F-150 is filed under body
 // styles like "F-150 SUPERCAB"). Ask which complaint models exist for this make and
 // year, then pick the closest one to what the user typed.
-async function resolveModel(make, model, year) {
+export async function resolveModel(make, model, year) {
   try {
     const res = await fetch(
       `${MODELS_URL}?modelYear=${year}&make=${encodeURIComponent(make)}&issueType=c`
@@ -51,7 +51,7 @@ async function resolveModel(make, model, year) {
   }
 }
 
-async function getComplaints(make, model, year) {
+export async function getComplaints(make, model, year) {
   const res = await fetch(
     `${COMPLAINTS_URL}?make=${encodeURIComponent(make)}&model=${encodeURIComponent(
       model

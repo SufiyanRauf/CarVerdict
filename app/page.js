@@ -154,9 +154,14 @@ export default function Home() {
               What owners actually complain about, from NHTSA records.
             </Typography>
           </Box>
-          <Button component={Link} href="/compare" sx={{ textTransform: "none", color: "#9aa0a6" }}>
-            Compare vehicles
-          </Button>
+          <Stack direction="row">
+            <Button component={Link} href="/compare" sx={{ textTransform: "none", color: "#9aa0a6" }}>
+              Compare vehicles
+            </Button>
+            <Button component={Link} href="/trends" sx={{ textTransform: "none", color: "#9aa0a6" }}>
+              Trends
+            </Button>
+          </Stack>
         </Stack>
       </Box>
 
