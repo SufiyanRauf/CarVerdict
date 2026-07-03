@@ -31,6 +31,9 @@ async function embedOne(text) {
     }),
   });
   const data = await res.json();
+  if (!res.ok || !data.embedding?.values) {
+    throw new Error("embedding request failed");
+  }
   return data.embedding.values;
 }
 
@@ -85,6 +88,7 @@ function countComponents(matches) {
     for (const c of comps) counts[c] = (counts[c] || 0) + 1;
   }
   return Object.entries(counts)
+    .filter(([component]) => component.toUpperCase() !== "UNKNOWN OR OTHER")
     .map(([component, count]) => ({ component, count }))
     .sort((a, b) => b.count - a.count);
 }
@@ -168,6 +172,7 @@ async function generateVerdict(system) {
     }),
   });
   const data = await res.json();
+  if (!res.ok) throw new Error("verdict request failed");
   return data.candidates?.[0]?.content?.parts?.[0]?.text || "";
 }
 

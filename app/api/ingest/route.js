@@ -16,13 +16,18 @@ function titleCase(s) {
 
 // turn a VIN into make/model/year with NHTSA's free vPIC decoder
 async function decodeVin(vin) {
-  const res = await fetch(`${VIN_URL}/${encodeURIComponent(vin)}?format=json`);
-  const data = await res.json();
-  const r = data.Results?.[0];
-  const year = Number(r?.ModelYear);
-  if (!r || !r.Make || !r.Model || !Number.isInteger(year)) return null;
-  // vPIC returns the make in all caps, tidy it to match how the seed stores cars
-  return { make: titleCase(r.Make), model: r.Model, year };
+  try {
+    const res = await fetch(`${VIN_URL}/${encodeURIComponent(vin)}?format=json`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    const r = data.Results?.[0];
+    const year = Number(r?.ModelYear);
+    if (!r || !r.Make || !r.Model || !Number.isInteger(year)) return null;
+    // vPIC returns the make in all caps, tidy it to match how the seed stores cars
+    return { make: titleCase(r.Make), model: r.Model, year };
+  } catch {
+    return null;
+  }
 }
 
 // NHTSA's complaints API uses its own model names (the F-150 is filed under body
@@ -85,6 +90,9 @@ async function embedBatch(texts) {
     }),
   });
   const data = await res.json();
+  if (!res.ok || !Array.isArray(data.embeddings)) {
+    throw new Error("embedding request failed");
+  }
   return data.embeddings.map((e) => e.values);
 }
 
@@ -150,7 +158,7 @@ export async function ingestVehicle({ make, model, year }) {
 }
 
 export async function POST(req) {
-  const { make, model, year, vin } = await req.json();
+  const { make, model, year, vin } = await req.json().catch(() => ({}));
 
   let vehicle = null;
   if (vin && vin.trim()) {

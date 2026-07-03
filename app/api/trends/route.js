@@ -38,6 +38,7 @@ function topComponents(years, n) {
     }
   }
   return Object.entries(totals)
+    .filter(([component]) => component.toUpperCase() !== "UNKNOWN OR OTHER")
     .map(([component, count]) => ({ component, count }))
     .sort((a, b) => b.count - a.count)
     .slice(0, n);
