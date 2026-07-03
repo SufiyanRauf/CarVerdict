@@ -6,6 +6,8 @@ const VIN_URL = "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues";
 const MODELS_URL = "https://api.nhtsa.gov/products/vehicle/models";
 const COMPLAINTS_URL = "https://api.nhtsa.gov/complaints/complaintsByVehicle";
 
+export const maxDuration = 60;
+
 // keep the seed quota safe: only the most recent complaints per vehicle
 const MAX_COMPLAINTS = 25;
 
@@ -17,7 +19,9 @@ function titleCase(s) {
 // turn a VIN into make/model/year with NHTSA's free vPIC decoder
 async function decodeVin(vin) {
   try {
-    const res = await fetch(`${VIN_URL}/${encodeURIComponent(vin)}?format=json`);
+    const res = await fetch(`${VIN_URL}/${encodeURIComponent(vin)}?format=json`, {
+      signal: AbortSignal.timeout(8000),
+    });
     if (!res.ok) return null;
     const data = await res.json();
     const r = data.Results?.[0];
@@ -36,7 +40,8 @@ async function decodeVin(vin) {
 export async function resolveModel(make, model, year) {
   try {
     const res = await fetch(
-      `${MODELS_URL}?modelYear=${year}&make=${encodeURIComponent(make)}&issueType=c`
+      `${MODELS_URL}?modelYear=${year}&make=${encodeURIComponent(make)}&issueType=c`,
+      { signal: AbortSignal.timeout(8000) }
     );
     const data = await res.json();
     const names = (data.results || []).map((r) => r.model);
@@ -57,14 +62,19 @@ export async function resolveModel(make, model, year) {
 }
 
 export async function getComplaints(make, model, year) {
-  const res = await fetch(
-    `${COMPLAINTS_URL}?make=${encodeURIComponent(make)}&model=${encodeURIComponent(
-      model
-    )}&modelYear=${year}`
-  );
-  if (!res.ok) return [];
-  const data = await res.json();
-  return data.results || [];
+  try {
+    const res = await fetch(
+      `${COMPLAINTS_URL}?make=${encodeURIComponent(make)}&model=${encodeURIComponent(
+        model
+      )}&modelYear=${year}`,
+      { signal: AbortSignal.timeout(8000) } // don't let a slow NHTSA response hang the request
+    );
+    if (!res.ok) return [];
+    const data = await res.json();
+    return data.results || [];
+  } catch {
+    return [];
+  }
 }
 
 // complaints are dated MM/DD/YYYY; turn that into a number so we can sort newest first

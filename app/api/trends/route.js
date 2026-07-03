@@ -1,5 +1,7 @@
 import { resolveModel, getComplaints } from "../ingest/route";
 
+export const maxDuration = 60;
+
 const GENERATE_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 

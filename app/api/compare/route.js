@@ -1,6 +1,8 @@
 import { Pinecone } from "@pinecone-database/pinecone";
 import { ingestVehicle } from "../ingest/route";
 
+export const maxDuration = 60;
+
 const EMBED_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent";
 const GENERATE_URL =
@@ -42,13 +44,16 @@ async function embedOne(text) {
 async function fetchStars(make, model, year) {
   try {
     const listRes = await fetch(
-      `${SAFETY_LIST}/${year}/make/${encodeURIComponent(make)}/model/${encodeURIComponent(model)}`
+      `${SAFETY_LIST}/${year}/make/${encodeURIComponent(make)}/model/${encodeURIComponent(model)}`,
+      { signal: AbortSignal.timeout(8000) }
     );
     if (!listRes.ok) return null;
     const list = await listRes.json();
     if (!list.Count || !list.Results?.length) return null;
 
-    const detRes = await fetch(`${SAFETY_ID}/${list.Results[0].VehicleId}`);
+    const detRes = await fetch(`${SAFETY_ID}/${list.Results[0].VehicleId}`, {
+      signal: AbortSignal.timeout(8000),
+    });
     if (!detRes.ok) return null;
     const overall = Number((await detRes.json()).Results?.[0]?.OverallRating);
     return Number.isFinite(overall) && overall > 0 ? overall : null;
@@ -107,30 +112,34 @@ export async function compareVehicles(rawVehicles) {
   const index = pc.index(process.env.PINECONE_INDEX);
   const vector = await embedOne("vehicle owner complaints and reliability");
 
-  // fetch any missing vehicles from NHTSA before we compare
-  let ingestedAny = false;
-  for (const v of vehicles) {
-    if (!(await hasVehicle(index, vector, v))) {
+  // fetch any missing vehicles from NHTSA before we compare (both cars at once)
+  const ingested = await Promise.all(
+    vehicles.map(async (v) => {
+      if (await hasVehicle(index, vector, v)) return false;
       const result = await ingestVehicle(v);
-      if (result.count > 0) ingestedAny = true;
-    }
-  }
-  if (ingestedAny) await new Promise((r) => setTimeout(r, 2500)); // let new vectors settle
+      return result.count > 0;
+    })
+  );
+  if (ingested.some(Boolean)) await new Promise((r) => setTimeout(r, 1500));
 
-  const stats = [];
-  for (const v of vehicles) {
-    const matches = await vehicleComplaints(index, vector, v);
-    const stars = await fetchStars(v.make, v.model, v.year);
-    stats.push({
-      make: v.make,
-      model: v.model,
-      year: v.year,
-      complaints: matches.length,
-      topComponents: countComponents(matches).slice(0, 4),
-      stars,
-      noData: matches.length === 0,
-    });
-  }
+  // pull each car's complaints and safety rating in parallel
+  const stats = await Promise.all(
+    vehicles.map(async (v) => {
+      const [matches, stars] = await Promise.all([
+        vehicleComplaints(index, vector, v),
+        fetchStars(v.make, v.model, v.year),
+      ]);
+      return {
+        make: v.make,
+        model: v.model,
+        year: v.year,
+        complaints: matches.length,
+        topComponents: countComponents(matches).slice(0, 4),
+        stars,
+        noData: matches.length === 0,
+      };
+    })
+  );
   return stats;
 }
 

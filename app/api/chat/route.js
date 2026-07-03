@@ -2,6 +2,9 @@ import { Pinecone } from "@pinecone-database/pinecone";
 import { ingestVehicle } from "../ingest/route";
 import { compareVehicles, verdictSystemPrompt } from "../compare/route";
 
+// this route calls NHTSA + Gemini and can run longer than Vercel's default 10s, so allow more
+export const maxDuration = 60;
+
 const EMBED_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent";
 const CHAT_URL =
@@ -67,7 +70,7 @@ async function extractIntent(question) {
   }
 }
 
-// is this exact vehicle already in the index?
+// skip the live fetch when this exact car is already stored
 async function alreadyHave(index, vector, vehicle) {
   const res = await index.query({
     topK: 1,
@@ -196,7 +199,7 @@ export async function POST(req) {
 
     if (vehicle && vehicle.year && !(await alreadyHave(index, vector, vehicle))) {
       await ingestVehicle(vehicle);
-      await new Promise((r) => setTimeout(r, 2000)); // give the new vectors a moment to be searchable
+      await new Promise((r) => setTimeout(r, 1500)); // give the new vectors a moment to be searchable
       search = await index.query(queryOpts);
     }
   } catch {
