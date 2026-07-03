@@ -11,7 +11,7 @@ const GENERATE_URL =
 
 const systemPrompt = `You are CarVerdict, an assistant that explains the common problems with a specific car using real owner complaints filed with the NHTSA.
 
-Answer the question using the complaints provided below. Complaints from a nearby model year of the same car are still relevant, so use them and mention which years you are drawing from. Group the issues by the part that fails (transmission, brakes, engine, electrical, and so on) and say how serious or common each one looks. Only say you don't have data yet if none of the complaints are for that make and model. Keep it specific and don't invent numbers. Write in plain text, no markdown symbols like ** or #. Use short paragraphs and a plain dash for any list items.`;
+Answer the question using the complaints provided below. Complaints from a nearby model year of the same car are still relevant, so use them and mention which years you are drawing from. Group the issues by the part that fails (transmission, brakes, engine, electrical, and so on). Describe how often each issue shows up in these complaints and how serious it looks, but do not claim how common a problem is overall, since you are only seeing a sample. Only say you don't have data yet if none of the complaints are for that make and model. Keep it specific and don't invent numbers. Write in plain text, no markdown symbols like ** or #. Put a blank line between each part group, start each group with the part name on its own line, then use a plain dash for each point.`;
 
 // embed the question the same way load.ipynb embedded the complaints (768 dims, key in header)
 async function embed(text) {
@@ -28,7 +28,15 @@ async function embed(text) {
     }),
   });
   const data = await res.json();
+  if (!res.ok || !data.embedding?.values) {
+    throw new Error("embedding request failed");
+  }
   return data.embedding.values;
+}
+
+// capitalize each word but keep existing caps, so a name like CR-V still matches the seed's casing
+function titleCase(s) {
+  return String(s || "").trim().replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
 // Pull the vehicle(s) and any focus area out of the question. One vehicle means a
@@ -59,8 +67,7 @@ async function extractIntent(question) {
   }
 }
 
-// is this exact vehicle already in the index? a filtered lookup, not the topK results,
-// so a differently worded follow-up about the same car doesn't fetch it a second time.
+// is this exact vehicle already in the index?
 async function alreadyHave(index, vector, vehicle) {
   const res = await index.query({
     topK: 1,
@@ -75,8 +82,8 @@ async function alreadyHave(index, vector, vehicle) {
   return res.matches.length > 0;
 }
 
-// stream a Gemini answer for the given system instruction and chat history
-async function streamGemini(systemText, messages) {
+// stream a Gemini answer; when sources are passed, tack them on after the text behind a marker
+async function streamGemini(systemText, messages, sources) {
   const res = await fetch(CHAT_URL, {
     method: "POST",
     headers: {
@@ -122,6 +129,19 @@ async function streamGemini(systemText, messages) {
           }
         }
       }
+      // flush a final data line that arrived without a trailing newline
+      const tail = buffer.trim();
+      if (tail.startsWith("data:")) {
+        try {
+          const text = JSON.parse(tail.slice(5).trim()).candidates?.[0]?.content?.parts?.[0]?.text;
+          if (text) controller.enqueue(encoder.encode(text));
+        } catch {
+          // nothing left to flush
+        }
+      }
+      if (sources && sources.count) {
+        controller.enqueue(encoder.encode("<<<SOURCES>>>" + JSON.stringify(sources)));
+      }
       controller.close();
     },
   });
@@ -160,24 +180,53 @@ export async function POST(req) {
   let search;
   try {
     const vector = await embed(question);
-    search = await index.query({ topK: 8, vector, includeMetadata: true });
+    const raw = intent.vehicles[0];
+    // title-case Gemini's make/model so the filter matches the seed's casing ("honda" -> "Honda")
+    const vehicle =
+      raw?.make && raw?.model
+        ? { make: titleCase(raw.make), model: titleCase(raw.model), year: raw.year }
+        : raw;
+    // restrict retrieval to that make and model so another car's complaints don't enter the context
+    const filter =
+      vehicle?.make && vehicle?.model
+        ? { make: { $eq: vehicle.make }, model: { $eq: vehicle.model } }
+        : undefined;
+    const queryOpts = { topK: 12, vector, includeMetadata: true, ...(filter ? { filter } : {}) };
+    search = await index.query(queryOpts);
 
-    const vehicle = intent.vehicles[0];
     if (vehicle && vehicle.year && !(await alreadyHave(index, vector, vehicle))) {
       await ingestVehicle(vehicle);
       await new Promise((r) => setTimeout(r, 2000)); // give the new vectors a moment to be searchable
-      search = await index.query({ topK: 8, vector, includeMetadata: true });
+      search = await index.query(queryOpts);
     }
   } catch {
     return new Response("Sorry, I had trouble looking that up. Please try again.");
   }
 
   let context = "";
+  let matched = [];
   for (const match of search.matches) {
     const c = match.metadata || {};
     const components = Array.isArray(c.components) ? c.components.join(", ") : "";
-    context += `${c.year} ${c.make} ${c.model} (${components})\n${String(c.summary).slice(0, 600)}\n\n`;
+    context += `${c.year} ${c.make} ${c.model} (${components})\n${String(c.summary).slice(0, 1500)}\n\n`;
+    matched.push(c);
   }
 
-  return streamGemini(`${systemPrompt}\n\nComplaints:\n${context}`, messages);
+  const seen = new Set();
+  const items = [];
+  for (const c of matched) {
+    // prefer a meaningful component over NHTSA's "unknown or other" catch-all for the source chip
+    const component =
+      (Array.isArray(c.components) ? c.components : []).find(
+        (x) => x && x.toUpperCase() !== "UNKNOWN OR OTHER"
+      ) || "";
+    const label = `${c.year} ${c.make} ${c.model} ${component}`;
+    if (seen.has(label)) continue;
+    seen.add(label);
+    items.push({ year: c.year, make: c.make, model: c.model, component });
+    if (items.length >= 6) break;
+  }
+  const sources = { count: matched.length, items };
+
+  return streamGemini(`${systemPrompt}\n\nComplaints:\n${context}`, messages, sources);
 }
