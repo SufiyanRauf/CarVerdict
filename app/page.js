@@ -2,13 +2,11 @@
 
 import { useEffect, useRef, useState } from "react";
 import {
-  Alert,
   Box,
   Button,
   ButtonBase,
   Chip,
   CircularProgress,
-  Snackbar,
   Stack,
   TextField,
   Typography,
@@ -34,16 +32,6 @@ export default function Home() {
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-
-  // add-a-vehicle form
-  const [showForm, setShowForm] = useState(false);
-  const [make, setMake] = useState("");
-  const [model, setModel] = useState("");
-  const [year, setYear] = useState("");
-  const [vin, setVin] = useState("");
-  const [adding, setAdding] = useState(false);
-  const [toast, setToast] = useState({ open: false, severity: "success", message: "" });
-
   const bottomRef = useRef(null);
 
   useEffect(() => {
@@ -77,7 +65,7 @@ export default function Home() {
         let answer = at === -1 ? raw : raw.slice(0, at);
         const srcRaw = at === -1 ? "" : raw.slice(at + marker.length);
 
-        // the marker can arrive a few characters at a time, so don't flash a half-typed one
+        // this split mid-marker once and flashed "<<<SOU" for a frame, so trim a partial one
         if (at === -1) {
           for (let k = marker.length - 1; k > 0; k--) {
             if (answer.endsWith(marker.slice(0, k))) {
@@ -98,9 +86,11 @@ export default function Home() {
 
         const content =
           done && !answer.trim() ? "I couldn't find anything on that. Try another car." : answer;
+        // only show the grounded-in sources when there's an actual answer to ground
+        const withSources = sources && answer.trim();
         setMessages((prev) => {
           const last = prev[prev.length - 1];
-          return [...prev.slice(0, -1), { ...last, content, ...(sources ? { sources } : {}) }];
+          return [...prev.slice(0, -1), { ...last, content, ...(withSources ? { sources } : {}) }];
         });
       };
       while (true) {
@@ -123,57 +113,10 @@ export default function Home() {
     }
   };
 
-  const addVehicle = async () => {
-    if (adding) return;
-    setAdding(true);
-    try {
-      const res = await fetch("/api/ingest", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ make, model, year, vin }),
-      });
-      const data = await res.json();
-
-      if (!res.ok) {
-        setToast({ open: true, severity: "error", message: data.error || "Couldn't add that vehicle." });
-      } else if (data.count === 0) {
-        setToast({
-          open: true,
-          severity: "warning",
-          message: `No NHTSA complaints found for the ${data.year} ${data.make} ${data.model}.`,
-        });
-      } else {
-        setToast({
-          open: true,
-          severity: "success",
-          message: `Loaded ${data.count} complaint${
-            data.count === 1 ? "" : "s"
-          } for the ${data.year} ${data.make} ${data.model}. You can ask about it now.`,
-        });
-        setMake("");
-        setModel("");
-        setYear("");
-        setVin("");
-        setShowForm(false);
-      }
-    } catch {
-      setToast({ open: true, severity: "error", message: "Couldn't add that vehicle. Please try again." });
-    } finally {
-      setAdding(false);
-    }
-  };
-
   const handleKey = (e) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       sendMessage();
-    }
-  };
-
-  const handleAddKey = (e) => {
-    if (e.key === "Enter") {
-      e.preventDefault();
-      addVehicle();
     }
   };
 
@@ -226,8 +169,6 @@ export default function Home() {
     "&:hover": { textDecoration: "underline" },
   };
 
-  const canAdd = (make.trim() && model.trim()) || vin.trim();
-
   // NHTSA sends component names in all caps; tidy them for the source chips
   const prettyPart = (s) => s.toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
 
@@ -253,75 +194,6 @@ export default function Home() {
           </Stack>
         </Stack>
       </Box>
-    </Box>
-  );
-
-  const addVehicleBlock = (
-    <Box sx={{ textAlign: "left" }}>
-      <Button
-        onClick={() => setShowForm((s) => !s)}
-        sx={{ textTransform: "none", color: "#5b6472", px: 0 }}
-      >
-        {showForm ? "Close" : "+ Add a vehicle"}
-      </Button>
-
-      {showForm && (
-        <Box
-          sx={{
-            bgcolor: "#fff",
-            border: "1px solid #d7dde5",
-            boxShadow: "0 1px 2px rgba(16,24,40,0.04)",
-            borderRadius: 2,
-            p: 2,
-            mt: 1,
-          }}
-        >
-          <Typography variant="body2" sx={{ color: "#5b6472", mb: 1.5 }}>
-            Optional. Asking about a car it does not have yet already loads it for you. Use this to
-            pre-load one first, by make, model, and year, or paste a VIN.
-          </Typography>
-          <Stack direction={{ xs: "column", sm: "row" }} spacing={1} sx={{ mb: 1 }}>
-            <TextField
-              size="small"
-              placeholder="Make"
-              value={make}
-              onChange={(e) => setMake(e.target.value)}
-              onKeyDown={handleAddKey}
-              sx={{ ...fieldSx, flex: 1 }}
-            />
-            <TextField
-              size="small"
-              placeholder="Model"
-              value={model}
-              onChange={(e) => setModel(e.target.value)}
-              onKeyDown={handleAddKey}
-              sx={{ ...fieldSx, flex: 1 }}
-            />
-            <TextField
-              size="small"
-              placeholder="Year"
-              value={year}
-              onChange={(e) => setYear(e.target.value)}
-              onKeyDown={handleAddKey}
-              sx={{ ...fieldSx, width: { sm: 110 } }}
-            />
-          </Stack>
-          <Stack direction={{ xs: "column", sm: "row" }} spacing={1}>
-            <TextField
-              fullWidth
-              size="small"
-              placeholder="or paste a VIN"
-              value={vin}
-              onChange={(e) => setVin(e.target.value)}
-              onKeyDown={handleAddKey}
-              sx={fieldSx}
-            />
-            <Button variant="contained" onClick={addVehicle} disabled={adding || !canAdd} sx={primaryBtn}>
-              {adding ? "Adding..." : "Add"}
-            </Button>
-          </Stack>
-        </Box>
-      )}
     </Box>
   );
 
@@ -560,21 +432,6 @@ export default function Home() {
       )}
 
       {footer}
-
-      <Snackbar
-        open={toast.open}
-        autoHideDuration={4000}
-        onClose={() => setToast((t) => ({ ...t, open: false }))}
-        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
-      >
-        <Alert
-          severity={toast.severity}
-          variant="filled"
-          onClose={() => setToast((t) => ({ ...t, open: false }))}
-        >
-          {toast.message}
-        </Alert>
-      </Snackbar>
     </Box>
   );
 }
