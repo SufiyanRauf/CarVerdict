@@ -10,13 +10,13 @@ Add your Vercel URL here after deploying.
 ## What it does
 - Ask about a specific car and get an answer grounded in real NHTSA owner complaints, grouped by the part that fails.
 - Answers stream in as they are written, and the chat keeps its history so follow-up questions still have context.
-- Starts with a seeded set of more than 50 popular vehicles (about 220 complaints). Add any other car yourself by make, model, and year, or paste a VIN. Ask about a car it does not have yet and it loads that car's complaints on the spot, then answers.
-- Compare two cars side by side (or just ask "compare the Camry and the Accord" in chat) and get a recommendation based on how often each part is reported and the car's NCAP safety rating.
+- Starts with a seeded set of 55 popular vehicles (up to 25 recent complaints each). Ask about a car it does not have yet and it loads that car's complaints from the NHTSA on the spot, then answers.
+- Compare two cars side by side (or just ask "compare the Camry and the Accord" in chat) and get a recommendation based on how often each part is reported (from a recent sample of complaints) and the car's NCAP safety rating.
 - See how a car's complaints trend across model years, including how many were serious (a crash, fire, or injury) and which parts come up most.
 - If a car has no complaints on file, it says so rather than making something up.
 
 ## How it works
-The question is turned into an embedding with Google's gemini-embedding-001 model at 768 dimensions. The closest complaints are pulled from Pinecone and passed to Gemini (gemini-2.5-flash) as context, and the answer is streamed back to the browser. A separate Python notebook (load.ipynb) fetches the complaints from the NHTSA API and loads them into Pinecone once, to seed the popular vehicles. Adding a car (or asking about one that is not loaded yet) runs the same fetch, embed, and store steps live through an API route, so it becomes searchable right away.
+The question is turned into an embedding with Google's gemini-embedding-001 model at 768 dimensions. The closest complaints are pulled from Pinecone and passed to Gemini (gemini-2.5-flash) as context, and the answer is streamed back to the browser. A separate Python notebook (load.ipynb) fetches the complaints from the NHTSA API and loads them into Pinecone once, to seed the popular vehicles. Asking about a car that is not loaded yet runs the same fetch, embed, and store steps live through an API route, so it becomes searchable right away.
 
 Comparing two cars runs a filtered Pinecone query per car to pull just that car's complaints, counts the parts that come up most, and fetches the NCAP overall safety rating from the NHTSA SafetyRatings API, then asks Gemini to weigh it all into a recommendation. The trends view pulls complaint counts straight from the NHTSA API for each model year in a range and charts them, with a short written summary.
 
@@ -35,4 +35,4 @@ Comparing two cars runs a filtered Pinecone query per car to pull just that car'
 5. Start the app: `npm run dev`, then open http://localhost:3000.
 
 ## Deploying
-The app runs on Vercel. Import the repository, add the same three environment variables (`GEMINI_API_KEY`, `PINECONE_API_KEY`, and `PINECONE_INDEX`) in the project settings, and deploy. The Pinecone index needs to be seeded once with load.ipynb before the app has anything to answer from.
+The app runs on Vercel. Import the repository, add the same three environment variables (`GEMINI_API_KEY`, `PINECONE_API_KEY`, and `PINECONE_INDEX`) in the project settings, and deploy. Use a Pinecone index with 768 dimensions and the cosine metric, with the name matching `PINECONE_INDEX`. Before the app has anything to answer from, seed that index once by running load.ipynb from your machine (with the same keys) pointed at the production index.

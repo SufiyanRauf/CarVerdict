@@ -11,9 +11,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// the site is served from Vercel; the base URL lets the social preview image resolve
+// the base URL lets the social preview image resolve; Vercel sets the production URL for us
+const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "https://carverdict.vercel.app";
+
 export const metadata = {
-  metadataBase: new URL("https://carverdict.vercel.app"),
+  metadataBase: new URL(siteUrl),
   title: "CarVerdict",
   description:
     "Find out what owners actually complain about for a specific car, compare two cars, and see how problems trend across model years, all from real NHTSA records.",
