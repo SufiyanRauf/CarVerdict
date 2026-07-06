@@ -5,7 +5,7 @@ CarVerdict is a chat app that tells you what tends to go wrong with a specific c
 I built this to make it easier for my family and friends to make an informed decision when buying a car. I also wanted a project that did real retrieval over real public data rather than a toy chatbot.
 
 ## Live demo
-Add your Vercel URL here after deploying.
+https://carverdict.vercel.app
 
 ## What it does
 - Ask about a specific car and get an answer grounded in real NHTSA owner complaints, grouped by the part that fails.
