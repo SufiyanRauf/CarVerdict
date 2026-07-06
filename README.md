@@ -10,7 +10,7 @@ https://carverdict.vercel.app
 ## What it does
 - Ask about a specific car and get an answer grounded in real NHTSA owner complaints, grouped by the part that fails.
 - Answers stream in as they are written, and the chat keeps its history so follow-up questions still have context.
-- Starts with a seeded set of 55 popular vehicles (up to 25 recent complaints each). Ask about a car it does not have yet and it loads that car's complaints from the NHTSA on the spot, then answers.
+- Starts with a seeded set of 55 popular vehicles (up to 12 recent complaints each). Ask about a car it does not have yet and it loads that car's complaints from the NHTSA on the spot, then answers.
 - Compare two cars side by side (or just ask "compare the Camry and the Accord" in chat) and get a recommendation based on how often each part is reported (from a recent sample of complaints) and the car's NCAP safety rating.
 - See how a car's complaints trend across model years, including how many were serious (a crash, fire, or injury) and which parts come up most.
 - If a car has no complaints on file, it says so rather than making something up.

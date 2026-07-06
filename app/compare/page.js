@@ -254,7 +254,7 @@ export default function Compare() {
             </Stack>
 
             <Typography variant="caption" sx={{ color: "#5b6472", display: "block", mt: 2 }}>
-              Complaint counts here are a sample of up to 25 per car, used to surface the most-reported
+              Complaint counts here are a recent sample per car, used to surface the most-reported
               parts, not lifetime totals. NCAP is the U.S. New Car Assessment Program, a government
               crash-test safety rating out of 5 stars.
             </Typography>

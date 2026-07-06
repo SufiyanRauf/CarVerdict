@@ -8,8 +8,8 @@ const COMPLAINTS_URL = "https://api.nhtsa.gov/complaints/complaintsByVehicle";
 
 export const maxDuration = 60;
 
-// keep the seed quota safe: only the most recent complaints per vehicle
-const MAX_COMPLAINTS = 25;
+// keep the free-tier embedding quota safe: only the most recent complaints per vehicle
+const MAX_COMPLAINTS = 12;
 
 function titleCase(s) {
   // capitalize each word, including after a hyphen (MERCEDES-BENZ -> Mercedes-Benz)

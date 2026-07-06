@@ -3,8 +3,6 @@ import { ingestVehicle } from "../ingest/route";
 
 export const maxDuration = 60;
 
-const EMBED_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent";
 const GENERATE_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 const SAFETY_LIST = "https://api.nhtsa.gov/SafetyRatings/modelyear";
@@ -17,26 +15,6 @@ const DEFAULT_YEAR = 2020;
 // seeded names that aren't plain title case still match (CR-V, RAV4, F-150).
 function titleCase(s) {
   return s.replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
-async function embedOne(text) {
-  const res = await fetch(EMBED_URL, {
-    method: "POST",
-    headers: {
-      "x-goog-api-key": process.env.GEMINI_API_KEY,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model: "models/gemini-embedding-001",
-      content: { parts: [{ text }] },
-      outputDimensionality: 768,
-    }),
-  });
-  const data = await res.json();
-  if (!res.ok || !data.embedding?.values) {
-    throw new Error("embedding request failed");
-  }
-  return data.embedding.values;
 }
 
 // NCAP overall safety stars (a two-step lookup): find the vehicle id, then its rating.
@@ -73,7 +51,7 @@ async function hasVehicle(index, vector, v) {
   return res.matches.length > 0;
 }
 
-// pull all of a vehicle's stored complaints (there are at most ~25 per car, so a
+// pull all of a vehicle's stored complaints (there are at most ~12 per car, so a
 // filtered query with a generous topK returns the whole set regardless of the vector)
 async function vehicleComplaints(index, vector, v) {
   const res = await index.query({
@@ -110,7 +88,10 @@ export async function compareVehicles(rawVehicles) {
 
   const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY });
   const index = pc.index(process.env.PINECONE_INDEX);
-  const vector = await embedOne("vehicle owner complaints and reliability");
+  // Compare selects a car's complaints by the make/model filter, not by similarity, so the
+  // query vector doesn't matter. A fixed vector skips an embedding call and keeps compare
+  // working even when the daily embedding quota is used up.
+  const vector = Array(768).fill(0.1);
 
   // fetch any missing vehicles from NHTSA before we compare (both cars at once)
   const ingested = await Promise.all(
