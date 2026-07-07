@@ -12,10 +12,10 @@ export default function Compare() {
   const [result, setResult] = useState(null);
 
   const validYear = (y) => /^\d{4}$/.test(String(y).trim());
-  const numericLike = (s) => /^\d+$/.test(String(s).trim()); // a make or model of only digits is likely a mixed-up field
+  const numericLike = (s) => /^\d+$/.test(String(s).trim()); // a make of only digits is likely a mixed-up field (some models are just numbers, like the Ram 1500)
 
   const carOk = (c) =>
-    c.make.trim() && !numericLike(c.make) && c.model.trim() && !numericLike(c.model) && validYear(c.year);
+    c.make.trim() && !numericLike(c.make) && c.model.trim() && validYear(c.year);
   const ready = carOk(carA) && carOk(carB);
 
   const runCompare = async () => {
@@ -174,8 +174,6 @@ export default function Compare() {
                   value={v.model}
                   onChange={(e) => set({ ...v, model: e.target.value })}
                   onKeyDown={handleKey}
-                  error={numericLike(v.model)}
-                  helperText={numericLike(v.model) ? "Enter a model, like Camry" : ""}
                   sx={{ ...fieldSx, flex: 1 }}
                 />
                 <TextField

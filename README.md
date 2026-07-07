@@ -16,7 +16,7 @@ https://carverdict.vercel.app
 - If a car has no complaints on file, it says so rather than making something up.
 
 ## How it works
-The question is turned into an embedding with Google's gemini-embedding-001 model at 768 dimensions. The closest complaints are pulled from Pinecone and passed to Gemini (gemini-2.5-flash) as context, and the answer is streamed back to the browser. A separate Python notebook (load.ipynb) fetches the complaints from the NHTSA API and loads them into Pinecone once, to seed the popular vehicles. Asking about a car that is not loaded yet runs the same fetch, embed, and store steps live through an API route, so it becomes searchable right away.
+The question is turned into an embedding with Google's gemini-embedding-001 model at 768 dimensions. The closest complaints for that make and model are pulled from Pinecone and passed to Gemini (gemini-2.5-flash) as context, and the answer is streamed back to the browser along with the specific complaints it drew from. A separate Python notebook (load.ipynb) fetches the complaints from the NHTSA API and loads them into Pinecone once, to seed the popular vehicles. Asking about a car that is not loaded yet runs the same fetch, embed, and store steps live through an API route, so it becomes searchable right away.
 
 Comparing two cars runs a filtered Pinecone query per car to pull just that car's complaints, counts the parts that come up most, and fetches the NCAP overall safety rating from the NHTSA SafetyRatings API, then asks Gemini to weigh it all into a recommendation. The trends view pulls complaint counts straight from the NHTSA API for each model year in a range and charts them, with a short written summary.
 

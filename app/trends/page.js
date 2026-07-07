@@ -20,7 +20,6 @@ export default function Trends() {
     form.make.trim() &&
     !numericLike(form.make) &&
     form.model.trim() &&
-    !numericLike(form.model) &&
     validYear(form.startYear) &&
     validYear(form.endYear);
 
@@ -174,8 +173,6 @@ export default function Trends() {
               value={form.model}
               onChange={set("model")}
               onKeyDown={handleKey}
-              error={numericLike(form.model)}
-              helperText={numericLike(form.model) ? "Enter a model, like Camry" : ""}
               sx={{ ...fieldSx, flex: 1 }}
             />
           </Stack>
